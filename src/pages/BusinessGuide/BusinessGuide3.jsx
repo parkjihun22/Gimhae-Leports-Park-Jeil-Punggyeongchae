@@ -80,7 +80,7 @@ const BusinessGuide2 = () => {
   		<meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />					
 		<link
 		  rel="canonical"
-		  href="https://www.bunyang-114.com/BusinessGuide/documents"
+		  href="https://diarivalencia.com/BusinessGuide/documents"
 		/>
 
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -95,11 +95,11 @@ const BusinessGuide2 = () => {
 		/>
 		<meta
 		  property="og:image"
-		  content="https://www.bunyang-114.com/Main1.png"
+		  content="https://diarivalencia.com/Main1.png"
 		/>
 		<meta
 		  property="og:url"
-		  content="https://www.bunyang-114.com/BusinessGuide/documents"
+		  content="https://diarivalencia.com/BusinessGuide/documents"
 		/>
 		<meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
 
@@ -116,11 +116,11 @@ const BusinessGuide2 = () => {
 		/>
 		<meta
 		  name="twitter:image"
-		  content="https://www.bunyang-114.com/Main1.png"
+		  content="https://diarivalencia.com/Main1.png"
 		/>
 		<meta
 		  name="twitter:url"
-		  content="https://www.bunyang-114.com/BusinessGuide/documents"
+		  content="https://diarivalencia.com/BusinessGuide/documents"
 		/>
 
 		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -132,7 +132,7 @@ const BusinessGuide2 = () => {
 											"name": "김해 레포츠파크 제일풍경채 - 당첨자 서류안내",
 											"description": "김해 레포츠파크 제일풍경채 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 ",
-											"url": "https://www.bunyang-114.com/BusinessGuide/documents"
+											"url": "https://diarivalencia.com/BusinessGuide/documents"
 										}
 										`}
 		</script>

@@ -75,7 +75,7 @@ const FloorPlan1 = () => {
         <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
         <link
           rel="canonical"
-          href="https://www.bunyang-114.com/FloorPlan/59A"
+          href="https://diarivalencia.com/FloorPlan/59A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -90,11 +90,11 @@ const FloorPlan1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.bunyang-114.com/Main1.png"
+          content="https://diarivalencia.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.bunyang-114.com/FloorPlan/59A"
+          content="https://diarivalencia.com/FloorPlan/59A"
         />
         <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
 
@@ -111,11 +111,11 @@ const FloorPlan1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.bunyang-114.com/Main1.png"
+          content="https://diarivalencia.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.bunyang-114.com/FloorPlan/59A"
+          content="https://diarivalencia.com/FloorPlan/59A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -127,7 +127,7 @@ const FloorPlan1 = () => {
 											"name": "김해 레포츠파크 제일풍경채 - 평면안내",
 											"description": "김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 ",
-											"url": "https://www.bunyang-114.com/FloorPlan/59A"
+											"url": "https://diarivalencia.com/FloorPlan/59A"
 										}
 										`}
         </script>

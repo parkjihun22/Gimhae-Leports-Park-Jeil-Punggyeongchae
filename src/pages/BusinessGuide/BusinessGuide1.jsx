@@ -86,15 +86,15 @@ const BusinessGuide = () => {
       title: "김해 레포츠파크 제일풍경채 - 사업안내",
       description:
         "김해 레포츠파크 제일풍경채의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://www.bunyang-114.com/BusinessGuide/intro",
-      image: "https://www.bunyang-114.com/Main1.png",
+      url: "https://diarivalencia.com/BusinessGuide/intro",
+      image: "https://diarivalencia.com/Main1.png",
     },
     3: {
       title: "김해 레포츠파크 제일풍경채 3단지 - 사업안내",
       description:
         "김해 레포츠파크 제일풍경채 3단지의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://www.bunyang-114.com/BusinessGuide/intro",
-      image: "https://www.bunyang-114.com/Main1.png",
+      url: "https://diarivalencia.com/BusinessGuide/intro",
+      image: "https://diarivalencia.com/Main1.png",
     },
   };
 

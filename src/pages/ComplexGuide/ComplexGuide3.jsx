@@ -68,7 +68,7 @@ const ComplexGuide3 = () => {
         <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
         <link
           rel="canonical"
-          href="https://www.bunyang-114.com/ComplexGuide/community"
+          href="https://diarivalencia.com/ComplexGuide/community"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -83,11 +83,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.bunyang-114.com/Main1.png"
+          content="https://diarivalencia.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.bunyang-114.com/ComplexGuide/community"
+          content="https://diarivalencia.com/ComplexGuide/community"
         />
         <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
 
@@ -104,11 +104,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.bunyang-114.com/Main1.png"
+          content="https://diarivalencia.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.bunyang-114.com/ComplexGuide/community"
+          content="https://diarivalencia.com/ComplexGuide/community"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -120,7 +120,7 @@ const ComplexGuide3 = () => {
 											"name": "김해 레포츠파크 제일풍경채 - 커뮤니티",
 											"description": "김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 ",
-											"url": "https://www.bunyang-114.com/ComplexGuide/community"
+											"url": "https://diarivalencia.com/ComplexGuide/community"
 										}
 										`}
         </script>

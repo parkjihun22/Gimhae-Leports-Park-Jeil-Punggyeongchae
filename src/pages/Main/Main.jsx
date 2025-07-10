@@ -186,7 +186,7 @@ const handleInputChange = (e) => {
         />
         <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.bunyang-114.com/" />
+        <link rel="canonical" href="https://diarivalencia.com/" />
 
         {/* 모바일 친화성을 위한 추가 태그 */}
         <meta name="HandheldFriendly" content="True" />
@@ -201,11 +201,11 @@ const handleInputChange = (e) => {
           property="og:description"
           content="김해 레포츠파크 제일풍경채ㅣ☎️(대표)1533-8848ㅣ김해 레포츠파크 제일풍경채ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
-        <meta property="og:url" content="https://www.bunyang-114.com/" />
+        <meta property="og:url" content="https://diarivalencia.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.bunyang-114.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
+          content="https://diarivalencia.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
         />
 
         {/* Twitter 카드 설정 */}
@@ -220,7 +220,7 @@ const handleInputChange = (e) => {
         />
         <meta
           name="twitter:image"
-          content="https://www.bunyang-114.com/Main1.png" // 실제 이미지 URL로 변경하세요.
+          content="https://diarivalencia.com/Main1.png" // 실제 이미지 URL로 변경하세요.
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
@@ -231,8 +231,8 @@ const handleInputChange = (e) => {
         "@type": "ApartmentComplex",
         "name": "김해 레포츠파크 제일풍경채",
         "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.bunyang-114.com/",
-        "image": "https://www.bunyang-114.com/Main1.png",
+        "url": "https://diarivalencia.com/",
+        "image": "https://diarivalencia.com/Main1.png",
         "telephone": "1533-8848",
         "address": {
           "@type": "PostalAddress",
