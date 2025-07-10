@@ -68,7 +68,7 @@ const ComplexGuide1 = () => {
   		<meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />	
 		<link
 		  rel="canonical"
-		  href="https://diarivalencia.com/ComplexGuide/intro"
+		  href="https://www.diarivalencia.com/ComplexGuide/intro"
 		/>
 
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -83,11 +83,11 @@ const ComplexGuide1 = () => {
 		/>
 		<meta
 		  property="og:image"
-		  content="https://diarivalencia.com/Main1.png"
+		  content="https://www.diarivalencia.com/Main1.png"
 		/>
 		<meta
 		  property="og:url"
-		  content="https://diarivalencia.com/ComplexGuide/intro"
+		  content="https://www.diarivalencia.com/ComplexGuide/intro"
 		/>
 		<meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
 
@@ -104,11 +104,11 @@ const ComplexGuide1 = () => {
 		/>
 		<meta
 		  name="twitter:image"
-		  content="https://diarivalencia.com/Main1.png"
+		  content="https://www.diarivalencia.com/Main1.png"
 		/>
 		<meta
 		  name="twitter:url"
-		  content="https://diarivalencia.com/ComplexGuide/intro"
+		  content="https://www.diarivalencia.com/ComplexGuide/intro"
 		/>
 
 		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -120,7 +120,7 @@ const ComplexGuide1 = () => {
 											"name": "김해 레포츠파크 제일풍경채 - 단지배치도",
 											"description": "김해 레포츠파크 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
 ",
-											"url": "https://diarivalencia.com/ComplexGuide/intro"
+											"url": "https://www.diarivalencia.com/ComplexGuide/intro"
 										}
 										`}
 		</script>

@@ -73,7 +73,7 @@ const Interior2 = () => {
         <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
         <link
           rel="canonical"
-          href="https://diarivalencia.com/Interior/84A"
+          href="https://www.diarivalencia.com/Interior/84A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -88,11 +88,11 @@ const Interior2 = () => {
         />
         <meta
           property="og:image"
-          content="https://diarivalencia.com/Main1.png"
+          content="https://www.diarivalencia.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://diarivalencia.com/Interior/84A"
+          content="https://www.diarivalencia.com/Interior/84A"
         />
         <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
 
@@ -109,11 +109,11 @@ const Interior2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://diarivalencia.com/Main1.png"
+          content="https://www.diarivalencia.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://diarivalencia.com/Interior/84A"
+          content="https://www.diarivalencia.com/Interior/84A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -125,7 +125,7 @@ const Interior2 = () => {
 											"name": "김해 레포츠파크 제일풍경채 - 84A인테리어",
 											"description": "84A타입의 인테리어 페이지에서는 김해 레포츠파크 제일풍경채의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
 ",
-											"url": "https://diarivalencia.com/Interior/84A"
+											"url": "https://www.diarivalencia.com/Interior/84A"
 										}
 										`}
         </script>
