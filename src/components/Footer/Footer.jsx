@@ -11,7 +11,7 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "김해 레포츠파크 제일풍경채", url: "https://www.beyinegzersizi.com" },
+  { name: "김해 레포츠파크 제일풍경채", url: "https://www.diarivalencia.com/" },
 ];
 
 const Footer = () => {
