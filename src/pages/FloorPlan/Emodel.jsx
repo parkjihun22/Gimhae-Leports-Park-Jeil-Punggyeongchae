@@ -18,10 +18,10 @@ const Emodel = () => {
   ];
 
   const vrUrls = {
-    "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
-    "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
-    "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-    "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+    // "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
+    // "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
+    // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
+    // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
   };
 
   const [selectedType, setSelectedType] = useState("59A");
@@ -47,17 +47,17 @@ const Emodel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
-        <title>김해 레포츠파크 제일풍경채 - E-모델하우스</title>
+        <title>김해 레포츠파크 제일풍경채- E-모델하우스</title>
         <meta name="description" content="김해 레포츠파크 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 원클러스터, E-모델하우스, 온라인모델하우스" />
+        <meta name="keywords" content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, E-모델하우스, 온라인모델하우스" />
         <link rel="canonical" href="https://www.diarivalencia.com/FloorPlan/Emodel" />
-        <meta property="og:title" content="김해 레포츠파크 제일풍경채 - E-모델하우스" />
+        <meta property="og:title" content="김해 레포츠파크 제일풍경채- E-모델하우스" />
         <meta property="og:description" content="김해 레포츠파크 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
         <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
         <meta property="og:url" content="https://www.diarivalencia.com/FloorPlan/Emodel" />
         <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="김해 레포츠파크 제일풍경채 - E-모델하우스" />
+        <meta name="twitter:title" content="김해 레포츠파크 제일풍경채- E-모델하우스" />
         <meta name="twitter:description" content="김해 레포츠파크 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
         <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
       </Helmet>
@@ -67,7 +67,7 @@ const Emodel = () => {
       <Bener title="E-모델하우스" />
       <MenuBar contents={menuContents} />
 
-      <h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채 - E-모델하우스 안내</h1>
+      <h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채- E-모델하우스 안내</h1>
 
       <div className={styles.tabMenu}>
         {menuContents.slice(0, 5).map((tab, idx) => (

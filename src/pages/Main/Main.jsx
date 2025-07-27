@@ -18,8 +18,8 @@ import DarkComplexSection from "../../components/DarkComplexSection/DarkComplexS
 import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
 // import UrlContainer from "../../components/UrlContainer/UrlContainer";\
 import UnitInfoSection from "../../components/UnitInfoSection/UnitInfoSection";
-
-
+import MobileNewsSection from "../../components/MobileNewsSection/MobileNewsSection";
+import newsLists from "../../NewsList"
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -51,9 +51,9 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `3,724세대 랜드마크 풍경채`,
-    text2: `반도체클러스터를 대표할<br />
-			      대단지 브랜드 프리미엄`,
+    text1: `440세대 랜드마크 제일 풍경채`,
+    text2: `김해를 대표할<br />
+			      브랜드 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
@@ -61,8 +61,8 @@ const section3Contents = [
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
     text1: `여유로운 직주근접 단지`,
-    text2: `세계최대규모 반도체 클러스터<br />
-			      반도체벨트의 미래를 선점하는 수혜단지`,
+    text2: `세계최대규모 김해 레포츠파크<br />
+			      레포츠파크의 미래를 선점하는 수혜단지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -78,8 +78,8 @@ const section3Contents = [
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `계약금 5%로 내집마련`,
-    text2: `입주자의 경제적 부담을 낮춘<br />
+    text1: `10년 살아보고 결정하는 혜택`,
+    text2: `합리적인 임대료로 부담을 낮춘<br />
 			      내 집 마련의 기회`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
@@ -99,21 +99,20 @@ const Main = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
   // 관심고객 등록 폼 상태 관리 (생년월일, 거주지역 필드 추가)
-const [registration, setRegistration] = useState({
-  name: "",
-  phone: "",
-  birthday: "",
-  residence: "",
-});
+  const [registration, setRegistration] = useState({
+    name: "",
+    phone: "",
+    birthday: "",
+    residence: "",
+  });
 
-const handleInputChange = (e) => {
-  const { name, value } = e.target;
-  setRegistration((prev) => ({
-    ...prev,
-    [name]: value,
-  }));
-};
-
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setRegistration((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
   // 기존 제출 핸들러는 Formspree를 사용할 것이므로 제거(또는 사용하지 않음)
   // const handleRegistrationSubmit = (e) => {
@@ -170,81 +169,7 @@ const handleInputChange = (e) => {
 
   return (
     <>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
 
-        {/* SEO 최적화를 위한 메타 태그 추가 */}
-        <title>▪김해 레포츠파크 제일풍경채</title>
-        <meta
-          name="description"
-          content="김해 레포츠파크 제일풍경채ㅣ☎️(대표)1533-8848ㅣ김해 레포츠파크 제일풍경채ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.diarivalencia.com/" />
-
-        {/* 모바일 친화성을 위한 추가 태그 */}
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="theme-color" content="#ffffff" />
-
-        {/* Open Graph - 소셜 미디어(페이스북, LinkedIn 등) 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="▪김해 레포츠파크 제일풍경채"
-        />
-        <meta
-          property="og:description"
-          content="김해 레포츠파크 제일풍경채ㅣ☎️(대표)1533-8848ㅣ김해 레포츠파크 제일풍경채ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta property="og:url" content="https://www.diarivalencia.com/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
-        />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="▪김해 레포츠파크 제일풍경채"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 레포츠파크 제일풍경채ㅣ☎️(대표)1533-8848ㅣ김해 레포츠파크 제일풍경채ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png" // 실제 이미지 URL로 변경하세요.
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "http://schema.org",
-        "@type": "ApartmentComplex",
-        "name": "김해 레포츠파크 제일풍경채",
-        "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.diarivalencia.com/",
-        "image": "https://www.diarivalencia.com/Main1.png",
-        "telephone": "1533-8848",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "김해 진례 레포츠파크",
-          "addressLocality": "김해",
-          "addressRegion": "김해",
-          "postalCode": "우편번호"
-        }
-      }
-    `}
-        </script>
-      </Helmet>
       {!isMobile ? (
         // PC 버전
         <>
@@ -275,24 +200,24 @@ const handleInputChange = (e) => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="김해 레포츠파크 제일풍경채-mainimage1"
+              alt="레포츠파크 제일풍경채-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
+                HUG주택도시보증공사{" "}
+                <span className={styles.greyText}>임대보증금 100% 보증</span> |
                 1군 브랜드{" "}
                 <span className={styles.greyText}>브랜드 프리미엄</span> |
-                3,729세대{" "}
-                <span className={styles.greyText}>메머드급 대단지</span> |
-                계약금 5%로 내집마련기회{" "}
+                10년 살아보고결정하는{" "}
                 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>
-                  반도체 클러스터의 중심이 될
+                  레포츠파크의 중심이 될
                 </div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>김해 레포츠파크 제일풍경채 </div>
+                <div className={styles.mainImageText}>레포츠파크 제일풍경채</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -316,14 +241,13 @@ const handleInputChange = (e) => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  " 방문 예약 고객 전원 신세계상품권 100% 증정 "
+                  레포츠파크 제일풍경채 중요 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 3,724세대 메머드급 대단지 프리미엄 <br />- 은화삼 CC조망 및
-                  경안천 수변공원으로 쾌적한 힐링 라이프 <br />
-                  - 지역 내 주요 간선도로 및 교통망 개선을 통해 주요지역 연결
-                  광역교통망의 중심
-                  <br />- 모두를 누리는 김해 레포츠파크 제일풍경채
+                  - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
+                  - 10년동안 안전하게 이사걱정을 하지 않고 10년후에는 내집으로 마련을 할수 있는 기회<br />
+                  - 김해 도심 및 부산과 창원등 수도권 인근 도시로 연결이 되는 주요 도로망이 인접<br />-
+                  - 모두를 누리는 김해 레포츠파크 제일풍경채
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -357,7 +281,7 @@ const handleInputChange = (e) => {
                   <br />
                   <span>
                     최고의 브랜드 아파트 <br />
-                    김해 레포츠파크 제일풍경채
+                    레포츠파크 제일풍경채
                   </span>
                 </div>
                 <div className={styles.subTitle}>
@@ -365,13 +289,13 @@ const handleInputChange = (e) => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    김해 레포츠파크 제일풍경채가 함께합니다
+                    레포츠파크 제일풍경채가 함께합니다
                   </div>
                 </div>
               </div>
               <img
                 src={section8Img3}
-                alt="김해 레포츠파크 제일풍경채 입지환경소개-image2"
+                alt="레포츠파크 제일풍경채 입지환경소개-image2"
               />
             </div>
           </div>
@@ -385,7 +309,7 @@ const handleInputChange = (e) => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  김해 레포츠파크 제일풍경채에서 펼쳐집니다
+                  레포츠파크 제일풍경채에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -405,7 +329,7 @@ const handleInputChange = (e) => {
               </div>
               <img
                 src={section2_Image1}
-                alt="김해 레포츠파크 제일풍경채 아파트 조감도-image3"
+                alt="레포츠파크 제일풍경채 아파트 조감도-image3"
               />
             </div>
           </div>
@@ -437,9 +361,9 @@ const handleInputChange = (e) => {
               <div className={styles.imageBox}>
                 <img
                   src={section4_Image1}
-                  alt="김해 레포츠파크 제일풍경채 브랜드소개-image4"
+                  alt="레포츠파크 제일풍경채 브랜드소개-image4"
                 />
-                <div className={styles.text1}>김해 레포츠파크 제일풍경채</div>
+                <div className={styles.text1}>레포츠파크 제일풍경채</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>
                   당신의 삶, 그 고귀함이 계속되길
@@ -457,71 +381,71 @@ const handleInputChange = (e) => {
           <div id="interestForm" className={styles.section}></div>
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
-<div className={styles.pcVisitContainer}>
-  {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
-  <div className={styles.pcTitleRow}>
-    <div className={styles.leftTitle}>
-      <h2>김해 레포츠파크 제일풍경채</h2>
-      <p>방문예약</p>
-    </div>
-    <div className={styles.rightText}>
-      방문예약 등록 시 모델하우스 주소 SMS발송 및
-      <br />
-      잔여세대를 안내드립니다.
-    </div>
-  </div>
+          <div className={styles.pcVisitContainer}>
+            {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
+            <div className={styles.pcTitleRow}>
+              <div className={styles.leftTitle}>
+                <h2>김해 레포츠파크 제일풍경채</h2>
+                <p>방문예약</p>
+              </div>
+              <div className={styles.rightText}>
+                방문예약 등록 시 모델하우스 주소 SMS발송 및
+                <br />
+                잔여세대를 안내드립니다.
+              </div>
+            </div>
 
-  {/* 입력 폼 */}
-  <form
-    className={styles.pcVisitForm}
-    action="https://formspree.io/f/mbldpwpz"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+            {/* 입력 폼 */}
+            <form
+              className={styles.pcVisitForm}
+              action="https://formspree.io/f/xrblqwrq"
+              method="POST"
+            >
+              <label htmlFor="name">
+                고객명 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="고객명"
+                value={registration.name}
+                onChange={handleInputChange}
+                required
+              />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
-  
+              <label htmlFor="phone">
+                연락처 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="010-0000-0000"
+                value={registration.phone}
+                onChange={handleInputChange}
+                required
+              />
 
-    <label htmlFor="message">
-      문의 내용
-    </label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+              <label htmlFor="message">
+                문의 내용
+              </label>
+              <textarea
+                name="message"
+                placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                value={registration.message}
+                onChange={handleInputChange}
+                rows={5}
+              />
+
+              <button type="submit">등록하기</button>
+            </form>
+          </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  김해 레포츠파크 제일풍경채
+                  레포츠파크 제일풍경채
                   <br />
                   <span>견본주택 오시는길</span>
                 </div>
@@ -530,11 +454,11 @@ const handleInputChange = (e) => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    김해 레포츠파크 제일풍경채가 함께합니다
+                    레포츠파크 제일풍경채가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="김해 레포츠파크 제일풍경채 오시는길안내-image1" />
+              <img src={map1} alt="레포츠파크 제일풍경채 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -585,52 +509,50 @@ const handleInputChange = (e) => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-  <img
-    src={mobileImageMain}
-    className={styles.mainImage}
-    alt="김해 레포츠파크 제일풍경채 mobilemain-image1"
-  />
-  <div className={styles.overlay}></div>
+            <img
+              src={mobileImageMain}
+              className={styles.mainImage}
+              alt="레포츠파크 제일풍경채 mobilemain-image1"
+            />
+            <div className={styles.overlay}></div>
 
-  {/* 기존 텍스트 */}
-  <div className={styles.mainImageTextBox1}>
-    <div className={styles.mainImageTextSub1}>
-      최첨단 반도체클러스터 중심의
-      <br />
-      <span className={styles.greyText1}>높은 미래가치</span>
-      <br />
-      1군브랜드
-      <br />
-      <span className={styles.greyText1}>브랜드 프리미엄</span>
-      <br />
-      계약금 5%로 내집마련기회
-      <br />
-      <span className={styles.greyText1}>착한조건</span>
-    </div>
-    <div className={styles.mainImageTitleBox1}>
-      <div className={styles.mainImageText1}>
-        김해 레포츠파크 제일풍경채
-        <br />
-      </div>
-    </div>
-  </div>
-</div>
+            {/* 기존 텍스트 */}
+            <div className={styles.mainImageTextBox1}>
+              <div className={styles.mainImageTextSub1}>
+                HUG주택도시보증공사 
+                <br />
+                <span className={styles.greyText1}>임대보증금 100%보증</span>
+                <br />
+                1군브랜드
+                <br />
+                <span className={styles.greyText1}>브랜드 프리미엄</span>
+                <br />
+                10년 살아보고 결정하는
+                <br />
+                <span className={styles.greyText1}>착한조건</span>
+              </div>
+              <div className={styles.mainImageTitleBox1}>
+                <div className={styles.mainImageText1}>
+                  김해 레포츠파크 제일풍경채
+                </div>
+              </div>
+            </div>
+          </div>
 
-          
-          
+
+
 
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              방문예약을 하시면 신세계 상품권 100% 증정
+              김해 레포츠파크 제일풍경채 POINT
             </div>
             <div className={styles.text3}>
-              - 3,724세대 메머드급 대단지 프리미엄
-              <br />
-              - 은화삼 CC조망 및 경안천 수변공원으로 쾌적한 힐링 라이프 <br />
-              - 지역 내 주요 간선도로 및 교통망 개선을 통해 <br /> 주요지역 연결
-              - 광역교통망의 중심
-              <br />- 모두를 누리는 반도체밸리 주거 타운의 완성
+                  - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
+                  - 10년동안 안전하게 이사걱정을 하지 않고<br />
+                  - 10년후에는 내집으로 마련을 할수 있는 기회<br />
+                  - 김해 도심 및 부산과 창원등 수도권으로 연결되는 주요 도로망이 인접<br />
+                  - 모두를 누리는 김해 레포츠파크 제일풍경채
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -647,7 +569,7 @@ const handleInputChange = (e) => {
             </div>
           </div>
           <MobileOverviewSection />
-                 {/* ─── 2.5. 중간에 풀-스크린 이미지 섹션 ───
+          {/* ─── 2.5. 중간에 풀-스크린 이미지 섹션 ───
          <div className={styles.mobileMiddleImage}>
            <img
              src={require("../../assets/Bener/event.jpg")}
@@ -655,16 +577,16 @@ const handleInputChange = (e) => {
              className={styles.middleImage}
            />
          </div> */}
-          
-         {/* ② DarkComplexSection 추가 */}
-         <section className={styles.darkSection}>
-           <DarkComplexSection />
-         </section>
 
-          {/* <div className={styles.container7}>
+          {/* ② DarkComplexSection 추가 */}
+          <section className={styles.darkSection}>
+            <DarkComplexSection />
+          </section>
+
+          <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                반도체 클러스터의 중심으로 사는
+                레포츠파크의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>
@@ -673,17 +595,17 @@ const handleInputChange = (e) => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  김해 레포츠파크 제일풍경채가 함께합니다
+                  레포츠파크 제일풍경채가 함께합니다
                 </div>
               </div>
             </div>
             <img
               src={section8Img3}
-              alt="김해 레포츠파크 제일풍경채 mobile입지안내-image1"
+              alt="김해 레포츠파크 제일풍경채 모바일 입지안내 이미지"
             />
-          </div> */}
+          </div>
 
-          {/* <div className={styles.container3}>
+          <div className={styles.container3}>
             <div className={styles.textbox}>
               <div className={`${styles.text1} fadeUpRepeat`}>
                 완벽한 생활에서 준비된 미래까지
@@ -697,15 +619,15 @@ const handleInputChange = (e) => {
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 김해 레포츠파크 제일풍경채에서<br />
+                프리미엄 주거라이프를 <br /> 김해 레포츠파크 제일풍경채에서<br />
                 확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="김해 레포츠파크 제일풍경채 mobile조감도-image1"
+              alt="김해 레포츠파크 제일풍경채 모바일 조감도 이미지"
             />
-          </div> */}
+          </div>
 
           <UnitInfoSection />
 
@@ -735,63 +657,75 @@ const handleInputChange = (e) => {
             <div>
               <img
                 src={section1_Image1}
-                alt="김해 레포츠파크 제일풍경채 브랜드소개 mobile-image5"
+                alt="레포츠파크 제일풍경채 브랜드소개 mobile-image5"
               />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
               </Link>
             </div>
           </div> */}
+          <MobileNewsSection newsList={newsLists} />
 
           {/* 모바일 방문예약 섹션 */}
-<div className={styles.mobileVisitContainer}>
-  <h2>김해 레포츠파크 제일풍경채</h2>
-  <p className={styles.mobileSubTitle}>방문예약</p>
-  <p className={styles.mobileInfoText}>
-    방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
-    잔여세대를 안내드립니다.
-  </p>
+          <div className={styles.mobileVisitContainer}>
+            <h2>김해 레포츠파크 제일풍경채</h2>
+            <p className={styles.mobileSubTitle}>방문예약</p>
+            <p className={styles.mobileInfoText}>
+              방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
+              잔여세대를 안내드립니다.
+            </p>
 
-  <form
-    className={styles.mobileVisitForm}
-    action="https://formspree.io/f/mbldpwpz"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+            <form
+              className={styles.mobileVisitForm}
+              action="https://formspree.io/f/xrblqwrq"
+              method="POST"
+            >
+              <label htmlFor="name">
+                고객명 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="고객명"
+                value={registration.name}
+                onChange={handleInputChange}
+                required
+              />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
+              <label htmlFor="phone">
+                연락처 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="010-0000-0000"
+                value={registration.phone}
+                onChange={handleInputChange}
+                required
+              />
+              <label htmlFor="message">
+                문의 내용
+              </label>
+              <textarea
+                name="message"
+                placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                value={registration.message}
+                onChange={handleInputChange}
+                rows={5}
+              />
 
 
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+
+              <button type="submit">등록하기</button>
+            </form>
+          </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
               <img
                 src={mobilemap1}
-                alt="김해 레포츠파크 제일풍경채 오시는길안내-mobileimage2"
+                alt="레포츠파크 제일풍경채 오시는길안내-mobileimage2"
               />
             </div>
           </div> */}

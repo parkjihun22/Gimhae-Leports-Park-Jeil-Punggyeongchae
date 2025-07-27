@@ -9,7 +9,9 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
+// import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
+
+import Ready from "../../components/Ready/Ready"
 
 const ComplexGuide3 = () => {
   const menuContents = [
@@ -59,13 +61,13 @@ const ComplexGuide3 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채 - 커뮤니티</title>
+        <title>김해 레포츠파크 제일풍경채- 커뮤니티</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
+          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
         />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
+    <meta name="keywords"
+        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/ComplexGuide/community"
@@ -74,12 +76,11 @@ const ComplexGuide3 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채 - 커뮤니티"
+          content="김해 레포츠파크 제일풍경채- 커뮤니티"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
+          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
         />
         <meta
           property="og:image"
@@ -95,12 +96,11 @@ const ComplexGuide3 = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채 - 커뮤니티"
+          content="김해 레포츠파크 제일풍경채- 커뮤니티"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
+          content="김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
         />
         <meta
           name="twitter:image"
@@ -117,9 +117,8 @@ const ComplexGuide3 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채 - 커뮤니티",
-											"description": "김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-",
+											"name": "김해 레포츠파크 제일풍경채- 커뮤니티",
+											"description": "김해 레포츠파크 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.",
 											"url": "https://www.diarivalencia.com/ComplexGuide/community"
 										}
 										`}
@@ -132,7 +131,7 @@ const ComplexGuide3 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채 - 커뮤니티
+        김해 레포츠파크 제일풍경채- 커뮤니티
       </h1>
       <p className={styles.screenReaderOnly}>
         김해 레포츠파크 제일풍경채의 커뮤니티 페이지에서는 단지 내 다양한
@@ -143,17 +142,19 @@ const ComplexGuide3 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>김해 레포츠파크 제일풍경채가 눈부신 가치 위에</div>
+        <div>레포츠파크 제일풍경채가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채 커뮤니티 안내 -image1"
+				alt="김해 레포츠파크 제일풍경채커뮤니티 안내 -image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
+
+      <Ready/>
 
 
       <Footer />

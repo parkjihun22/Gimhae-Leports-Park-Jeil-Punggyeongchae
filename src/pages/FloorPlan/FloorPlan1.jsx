@@ -10,7 +10,9 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg"
+// import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg"
+
+import Ready from "../../components/Ready/Ready"
 
 const FloorPlan1 = () => {
   const menuContents = [
@@ -66,13 +68,13 @@ const FloorPlan1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채 - 평면안내</title>
+        <title>김해 레포츠파크 제일풍경채- 평면안내</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
-"
+          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
+    <meta name="keywords"
+        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/FloorPlan/59A"
@@ -81,12 +83,11 @@ const FloorPlan1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채 - 평면안내"
+          content="김해 레포츠파크 제일풍경채- 평면안내"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
-"
+          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
         <meta
           property="og:image"
@@ -102,12 +103,11 @@ const FloorPlan1 = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채 - 평면안내"
+          content="김해 레포츠파크 제일풍경채- 평면안내"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
-"
+          content="김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
         <meta
           name="twitter:image"
@@ -124,9 +124,8 @@ const FloorPlan1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채 - 평면안내",
-											"description": "김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
-",
+											"name": "김해 레포츠파크 제일풍경채- 평면안내",
+											"description": "김해 레포츠파크 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.",
 											"url": "https://www.diarivalencia.com/FloorPlan/59A"
 										}
 										`}
@@ -141,7 +140,7 @@ const FloorPlan1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채 - 59A평면안내
+        김해 레포츠파크 제일풍경채- 59A평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
         59타입의평면 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트
@@ -151,18 +150,19 @@ const FloorPlan1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>반도체클러스터의 눈부신 가치 위에</div>
-        <div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
+        <div>김해 레포츠파크의 눈부신 가치 위에</div>
+        <div>푸르지오의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채 59타입의평면안내이미지"
+				alt="김해 레포츠파크 제일풍경채59타입의평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
 
+      <Ready/>
    
 
       <div className={styles.commonBox2}>

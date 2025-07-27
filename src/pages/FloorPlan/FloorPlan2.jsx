@@ -10,7 +10,9 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
+// import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
+
+import Ready from "../../components/Ready/Ready"
 
 const FloorPlan2 = () => {
 	const menuContents = [
@@ -64,24 +66,24 @@ const FloorPlan2 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채 - 59B 평면안내 </h1>
-			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+            <h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채- 59B 평면안내 </h1>
+			<p className={styles.screenReaderOnly}>평면 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
 			</p>
 
 			<div className={styles.textBox}>
-				<div>반도체 클러스터의 눈부신 가치 위에</div>
+				<div>김해 레포츠파크의 눈부신 가치 위에</div>
 				<div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			<img
+			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채 59B 평면안내 이미지"
+				alt="김해 레포츠파크 제일풍경채 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
 
-		
+			<Ready/>
 
 			<div className={styles.commonBox2}>
 				<div className={styles.notice}>

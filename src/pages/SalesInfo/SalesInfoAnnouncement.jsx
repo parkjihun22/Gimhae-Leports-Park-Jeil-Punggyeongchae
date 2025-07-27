@@ -12,13 +12,15 @@ import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/page1.jpg";
 import pdfIcon from "../../assets/icons/pdf-icon.png";  // PDF 아이콘 이미지 임포트
 
+import Ready from "../../components/Ready/Ready"
+
 
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
+    { title: "인터넷 청약", url: "/SalesInfo/guide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -78,17 +80,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채 - 모집공고안내</title>
+        <title>김해 레포츠파크 제일풍경채- 모집공고안내</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
-        <meta
-          name="keywords"
-          content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스"
-        />
+    <meta name="keywords"
+        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/SalesInfo/announcement"
@@ -97,13 +95,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채 - 모집공고안내"
+          content="김해 레포츠파크 제일풍경채- 모집공고안내"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           property="og:image"
@@ -119,13 +115,11 @@ const ComplexGuide1 = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채 - 모집공고안내"
+          content="김해 레포츠파크 제일풍경채- 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="twitter:image"
@@ -142,10 +136,8 @@ const ComplexGuide1 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "김해 레포츠파크 제일풍경채 - 모집공고안내",
-                                            "description": "김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-",
+                                            "name": "김해 레포츠파크 제일풍경채- 모집공고안내",
+                                            "description": "김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
                                             "url": "https://www.diarivalencia.com/SalesInfo/announcement"
                                         }
                                         `}
@@ -170,19 +162,20 @@ const ComplexGuide1 = () => {
         <div>입주자 모집공고안내를 확인하세요</div>
         <div>김해 레포츠파크 제일풍경채</div>
       </div>
-      <img
+      {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
         alt="김해 레포츠파크 제일풍경채모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-         />
+         /> */}
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
-       <button onClick={openPDF} className={styles.pdfButton}>
+       {/* <button onClick={openPDF} className={styles.pdfButton}>
                 <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} /> 
                 <span>모집공고 PDF<br/>확인하기</span>
-            </button>
+            </button> */}
 
-      김해 레포츠파크 제일풍경채
+            <Ready/>
+
       {/* 로딩 중일 때 표시할 스피너 */}
       {isLoading && (
         <div className={styles.loader}>
@@ -197,6 +190,7 @@ const ComplexGuide1 = () => {
           확인하시기 바랍니다.
         </div>
       </div>
+
       <Footer />
     </div>
   );

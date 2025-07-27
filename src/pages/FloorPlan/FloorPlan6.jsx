@@ -59,13 +59,13 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="김해 레포츠파크 제일풍경채 119B 평면image" />
+			<Bener title="김해 레포츠파크 제일풍경채119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>반도체클러스터의 눈부신 가치 위에</div>
-				<div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
+				<div>김해 레포츠파크의 눈부신 가치 위에</div>
+				<div>푸르지오의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}

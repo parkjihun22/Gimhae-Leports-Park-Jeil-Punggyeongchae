@@ -29,33 +29,25 @@ const items = [
         <li>
           <strong>대지위치</strong>
           <span>
-            [1단지] 인천시 처인구 남동 산126-13<br />
-            [2단지] 인천시 처인구 남동 산126-1일원<br />
-            [3단지] 인천시 처인구 남동 243일원
+            김해 레포츠파크 일원
           </span>
         </li>
         <li>
           <strong>건축규모</strong>
           <span>
-            [1단지] 지하 4층 ~ 지상 28층<br />
-            [2단지] 지하 3층 ~ 지상 28층<br />
-            [3단지] 지하 4층 ~ 지상 26층
+            지하 4층 ~ 지상 28층<br />
           </span>
         </li>
         <li>
           <strong>주택형</strong>
           <span>
-            [1단지] 59A·B / 84A·B·C / 130㎡<br />
-            [2단지] 59A·B / 84A·B·C<br />
-            [3단지] 84A·B·C
+            59A·B / 84A·B·C / 130㎡
           </span>
         </li>
         <li>
           <strong>세대수</strong>
           <span>
-            [1단지] 1,681세대<br />
-            [2단지] 1,804세대<br />
-            [3단지] 239세대
+            440세대
           </span>
         </li>
       </ul>
@@ -71,11 +63,11 @@ const items = [
           className={styles.mapImage}
           alt="입지환경 지도 1"
         />
-        <img
+        {/* <img
           src={mobileMap2}
           className={styles.mapImage}
           alt="입지환경 지도 2"
-        />
+        /> */}
       </div>
     ),
   },
@@ -88,7 +80,7 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            반도체 클러스터의 중심으로 사는<br />
+            레포츠파크의 중심으로 사는<br />
             최고의 브랜드 아파트
           </p>
         </div>
@@ -103,9 +95,9 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "미래가치를 높여주는 반도체벨트",
+      title: "미래가치를 높여주는 김해반도체벨트",
       desc:
-        "삼성 · SK하이닉스 반도체 클러스터(계획), <br />반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
+        "최대규모 레포츠파크 시티(계획), <br />김해반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
     },
     {
       img: slide2,
@@ -126,7 +118,7 @@ function PremiumSlider() {
     },
     {
       img: slide5,
-      title: "3,724세대 풍경채 대단지 프리미엄",
+      title: "3,724세대 푸르지오 대단지 프리미엄",
       desc:
         "총 3,724세대 김해 레포츠파크 제일풍경채 메가타운으로 찾아옵니다",
     },
@@ -203,13 +195,13 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>ONE CLUSTER BUSINESS</div>
+        <div className={styles.preTitle}>Punggyeongchae BUSINESS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>
 
       {/* ─── 히어로 이미지 ─── */}
-      <img src={heroImage} className={styles.heroImage} alt="단지 전경" />
+      <img src={heroImage} className={styles.heroImage} alt="풍경채 섹션이미지1 " />
 
       {/* ─── 아코디언 항목 ─── */}
       {items.map(({ key, label, content }) => (

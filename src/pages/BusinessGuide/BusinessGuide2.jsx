@@ -61,13 +61,13 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채 - 분양일정</title>
+        <title>김해 레포츠파크 제일풍경채- 분양일정</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
-"
+          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
         />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
+    <meta name="keywords"
+        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/BusinessGuide/plan"
@@ -76,12 +76,11 @@ const BusinessGuide2 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채 - 분양일정"
+          content="김해 레포츠파크 제일풍경채- 분양일정"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
-"
+          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
         />
         <meta
           property="og:image"
@@ -97,12 +96,11 @@ const BusinessGuide2 = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채 - 분양일정"
+          content="김해 레포츠파크 제일풍경채- 분양일정"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
-"
+          content="김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
         />
         <meta
           name="twitter:image"
@@ -119,9 +117,8 @@ const BusinessGuide2 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "김해 레포츠파크 제일풍경채 - 분양일정",
-                                            "description": "김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
-",
+                                            "name": "김해 레포츠파크 제일풍경채- 분양일정",
+                                            "description": "김해 레포츠파크 제일풍경채의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!",
                                             "url": "https://www.diarivalencia.com/BusinessGuide/plan"
                                         }
                                         `}
@@ -140,12 +137,12 @@ const BusinessGuide2 = () => {
             </p>
 
             <div className={styles.textBox}>
-                <div>반도체클러스터의 눈부신 가치 위에</div>
+                <div>김해 레포츠파크의 눈부신 가치 위에</div>
                 <div>김해 레포츠파크 제일풍경채의 새로운 자부심으로 찾아옵니다.</div>
             </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김해 레포츠파크 제일풍경채 분양일정안내-image1" />
+            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김해 레포츠파크 제일풍경채분양일정안내-image1" />
             <div className={styles.readyContainer}>
            
             </div>

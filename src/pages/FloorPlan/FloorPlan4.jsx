@@ -10,7 +10,9 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan4/page1.jpg"
+// import page1 from "../../assets/FloorPlan/FloorPlan4/page1.jpg"
+
+import Ready from "../../components/Ready/Ready"
 
 const FloorPlan4 = () => {
 	const menuContents = [
@@ -65,17 +67,19 @@ const FloorPlan4 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>반도체 클러스터의 눈부신 가치 위에</div>
+				<div>레포츠파크의 눈부신 가치 위에</div>
 				<div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			<img
+			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채 84B 평면안내 이미지"
+				alt="김해 레포츠파크 제일풍경채 평면안내 이미지3"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
+
+			<Ready/>
 
 
 

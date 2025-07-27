@@ -68,13 +68,13 @@ const FloorPlanVideos = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채 - 평면안내</title>
+        <title>김해 레포츠파크 제일풍경채- 평면안내</title>
         <meta
           name="description"
-          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다.
-"
+          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다."
         />
-        <meta name="keywords" content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스" />
+    <meta name="keywords"
+        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/FloorPlan/videos"
@@ -83,12 +83,11 @@ const FloorPlanVideos = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채 - 평면안내"
+          content="김해 레포츠파크 제일풍경채- 평면안내"
         />
         <meta
           property="og:description"
-          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다.
-"
+          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다."
         />
         <meta
           property="og:image"
@@ -104,12 +103,11 @@ const FloorPlanVideos = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채 - 평면안내"
+          content="김해 레포츠파크 제일풍경채- 평면안내"
         />
         <meta
           name="twitter:description"
-          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다.
-"
+          content="세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다."
         />
         <meta
           name="twitter:image"
@@ -126,9 +124,8 @@ const FloorPlanVideos = () => {
                     {
                       "@context": "https://schema.org",
                       "@type": "WebPage",
-                      "name": "김해 레포츠파크 제일풍경채 - 평면안내",
-                      "description": "세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다.
-",
+                      "name": "김해 레포츠파크 제일풍경채- 평면안내",
+                      "description": "세대안내영상 안내 페이지는 김해 레포츠파크 제일풍경채의 각 아파트 세대안내영상을 제공합니다.",
                       "url": "https://www.diarivalencia.com/FloorPlan/videos"
                     }
                     `}
@@ -146,8 +143,8 @@ const FloorPlanVideos = () => {
       <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 
       <div className={styles.textBox}>
-        <div>반도체클러스터의 눈부신 가치 위에 찾아오는</div>
-        <div>풍경채의 가치를 영상으로 확인해보세요</div>
+        <div>김해 레포츠파크의 눈부신 가치 위에 찾아오는</div>
+        <div>푸르지오의 가치를 영상으로 확인해보세요</div>
       </div>
 
       {/* 탭 메뉴 */}
