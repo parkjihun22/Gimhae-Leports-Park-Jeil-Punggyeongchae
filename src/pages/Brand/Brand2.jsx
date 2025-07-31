@@ -55,13 +55,13 @@ const Brand2 = () => {
 		<meta name="robots" content="index, follow" />
 
 		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>김해 레포츠파크 제일풍경채- 홍보영상</title>
+		<title>김해 테크노밸리 제일풍경채- 홍보영상</title>
 		<meta
 		  name="description"
-		  content="김해 레포츠파크 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+		  content="김해 테크노밸리 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
 		/>
     <meta name="keywords"
-        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />			
+        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />			
 		<link
 		  rel="canonical"
 		  href="https://www.diarivalencia.com/Brand/video"
@@ -70,11 +70,11 @@ const Brand2 = () => {
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
 		<meta
 		  property="og:title"
-		  content="김해 레포츠파크 제일풍경채- 홍보영상"
+		  content="김해 테크노밸리 제일풍경채- 홍보영상"
 		/>
 		<meta
 		  property="og:description"
-		  content="김해 레포츠파크 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+		  content="김해 테크노밸리 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
 		/>
 		<meta
 		  property="og:image"
@@ -84,17 +84,17 @@ const Brand2 = () => {
 		  property="og:url"
 		  content="https://www.diarivalencia.com/Brand/video"
 		/>
-		<meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+		<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
 		{/* Twitter 카드 설정 */}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta
 		  name="twitter:title"
-		  content="김해 레포츠파크 제일풍경채- 홍보영상"
+		  content="김해 테크노밸리 제일풍경채- 홍보영상"
 		/>
 		<meta
 		  name="twitter:description"
-		  content="김해 레포츠파크 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+		  content="김해 테크노밸리 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
 		/>
 		<meta
 		  name="twitter:image"
@@ -111,8 +111,8 @@ const Brand2 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채- 홍보영상",
-											"description": "김해 레포츠파크 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.",
+											"name": "김해 테크노밸리 제일풍경채- 홍보영상",
+											"description": "김해 테크노밸리 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.",
 											"url": "https://www.diarivalencia.com/Brand/video"
 										}
 										`}
@@ -127,12 +127,12 @@ const Brand2 = () => {
 			<MenuBar contents={menuContents} />
 
 						{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-						<h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채 - 홍보영상</h1>
-						<p className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
+						<h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 - 홍보영상</h1>
+						<p className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 김해의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
 						</p>	
 
 			<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-                <div>김해 레포츠파크 제일풍경채가 눈부신 가치 위에</div>
+                <div>김해 테크노밸리 제일풍경채가 눈부신 가치 위에</div>
                 <div>새로운 자부심으로 찾아옵니다.</div>
             </div>
 

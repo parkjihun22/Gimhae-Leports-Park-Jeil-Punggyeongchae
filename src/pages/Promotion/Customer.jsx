@@ -67,7 +67,7 @@ export default function Customer() {
       <FixIcon />
 
       {/* 배너 */}
-      <Bener title="김해 레포츠파크 제일풍경채" />
+      <Bener title="김해 테크노밸리 제일풍경채" />
 
       {/* 네비게이션 탭 */}
       <MenuBar contents={promoMenu} />
@@ -77,7 +77,7 @@ export default function Customer() {
         {/* ─── 좌측 카드 ─── */}
         <div className={styles.customerLeft}>
           <div className={styles.textBlock}>
-            <h2 className={styles.projectName}>김해 레포츠파크 제일풍경채</h2>
+            <h2 className={styles.projectName}>김해 테크노밸리 제일풍경채</h2>
             <h3 className={styles.pageTitle}>방문예약등록</h3>
           </div>
           <img

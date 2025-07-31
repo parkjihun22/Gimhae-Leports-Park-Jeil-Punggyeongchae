@@ -61,13 +61,13 @@ const ComplexGuide1 = () => {
 		<meta name="robots" content="index, follow" />
 
 		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>김해 레포츠파크 제일풍경채- 단지배치도</title>
+		<title>김해 테크노밸리 제일풍경채- 단지배치도</title>
 		<meta
 		  name="description"
-		  content="김해 레포츠파크 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
+		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
 		/>
     <meta name="keywords"
-        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />	
+        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />	
 		<link
 		  rel="canonical"
 		  href="https://www.diarivalencia.com/ComplexGuide/intro"
@@ -76,11 +76,11 @@ const ComplexGuide1 = () => {
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
 		<meta
 		  property="og:title"
-		  content="김해 레포츠파크 제일풍경채- 단지배치도"
+		  content="김해 테크노밸리 제일풍경채- 단지배치도"
 		/>
 		<meta
 		  property="og:description"
-		  content="김해 레포츠파크 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
+		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
 		/>
 		<meta
 		  property="og:image"
@@ -90,17 +90,17 @@ const ComplexGuide1 = () => {
 		  property="og:url"
 		  content="https://www.diarivalencia.com/ComplexGuide/intro"
 		/>
-		<meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+		<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
 		{/* Twitter 카드 설정 */}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta
 		  name="twitter:title"
-		  content="김해 레포츠파크 제일풍경채- 단지배치도"
+		  content="김해 테크노밸리 제일풍경채- 단지배치도"
 		/>
 		<meta
 		  name="twitter:description"
-		  content="김해 레포츠파크 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
+		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
 		/>
 		<meta
 		  name="twitter:image"
@@ -117,8 +117,8 @@ const ComplexGuide1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채- 단지배치도",
-											"description": "김해 레포츠파크 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.",
+											"name": "김해 테크노밸리 제일풍경채- 단지배치도",
+											"description": "김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.",
 											"url": "https://www.diarivalencia.com/ComplexGuide/intro"
 										}
 										`}
@@ -130,14 +130,14 @@ const ComplexGuide1 = () => {
 			<Bener title="단지안내" />
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>김해 레포츠파크 제일풍경채- 단지배치도</h1>
-			<p className={styles.screenReaderOnly}>단지 배치도 페이지는 김해 레포츠파크 제일풍경채의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다.
+            <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채- 단지배치도</h1>
+			<p className={styles.screenReaderOnly}>단지 배치도 페이지는 김해 테크노밸리 제일풍경채의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다.
 			</p>
 
 
 
 			<div className={styles.textBox}>
-				<div>김해 레포츠파크 제일풍경채가 눈부신 가치 위에</div>
+				<div>김해 테크노밸리 제일풍경채가 눈부신 가치 위에</div>
 				<div>새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -145,7 +145,7 @@ const ComplexGuide1 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채단지배치도-image1"
+				alt="김해 테크노밸리 제일풍경채단지배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 			

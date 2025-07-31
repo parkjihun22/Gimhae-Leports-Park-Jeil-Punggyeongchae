@@ -228,7 +228,7 @@ const Main = () => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="김해 레포츠파크 제일풍경채 관심고객등록"
+                    alt="김해 테크노밸리 제일풍경채 관심고객등록"
                   />
                 </button>
               </div>
@@ -247,7 +247,7 @@ const Main = () => {
                   - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
                   - 10년동안 안전하게 이사걱정을 하지 않고 10년후에는 내집으로 마련을 할수 있는 기회<br />
                   - 김해 도심 및 부산과 창원등 수도권 인근 도시로 연결이 되는 주요 도로망이 인접<br />-
-                  - 모두를 누리는 김해 레포츠파크 제일풍경채
+                  - 모두를 누리는 김해 테크노밸리 제일풍경채
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -264,7 +264,7 @@ const Main = () => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="김해 레포츠파크 제일풍경채 브랜드소개-image2"
+                  alt="김해 테크노밸리 제일풍경채 브랜드소개-image2"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -385,7 +385,7 @@ const Main = () => {
             {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
             <div className={styles.pcTitleRow}>
               <div className={styles.leftTitle}>
-                <h2>김해 레포츠파크 제일풍경채</h2>
+                <h2>김해 테크노밸리 제일풍경채</h2>
                 <p>방문예약</p>
               </div>
               <div className={styles.rightText}>
@@ -533,7 +533,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  김해 레포츠파크 제일풍경채
+                  김해 테크노밸리 제일풍경채
                 </div>
               </div>
             </div>
@@ -545,14 +545,14 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              김해 레포츠파크 제일풍경채 POINT
+              김해 테크노밸리 제일풍경채 POINT
             </div>
             <div className={styles.text3}>
                   - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
                   - 10년동안 안전하게 이사걱정을 하지 않고<br />
                   - 10년후에는 내집으로 마련을 할수 있는 기회<br />
                   - 김해 도심 및 부산과 창원등 수도권으로 연결되는 주요 도로망이 인접<br />
-                  - 모두를 누리는 김해 레포츠파크 제일풍경채
+                  - 모두를 누리는 김해 테크노밸리 제일풍경채
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -601,7 +601,7 @@ const Main = () => {
             </div>
             <img
               src={section8Img3}
-              alt="김해 레포츠파크 제일풍경채 모바일 입지안내 이미지"
+              alt="김해 테크노밸리 제일풍경채 모바일 입지안내 이미지"
             />
           </div>
 
@@ -613,19 +613,19 @@ const Main = () => {
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이
                 <br />
-                김해 레포츠파크 제일풍경채에서 펼쳐집니다
+                김해 테크노밸리 제일풍경채에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 <br /> 김해 레포츠파크 제일풍경채에서<br />
+                프리미엄 주거라이프를 <br /> 김해 테크노밸리 제일풍경채에서<br />
                 확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="김해 레포츠파크 제일풍경채 모바일 조감도 이미지"
+              alt="김해 테크노밸리 제일풍경채 모바일 조감도 이미지"
             />
           </div>
 
@@ -668,7 +668,7 @@ const Main = () => {
 
           {/* 모바일 방문예약 섹션 */}
           <div className={styles.mobileVisitContainer}>
-            <h2>김해 레포츠파크 제일풍경채</h2>
+            <h2>김해 테크노밸리 제일풍경채</h2>
             <p className={styles.mobileSubTitle}>방문예약</p>
             <p className={styles.mobileInfoText}>
               방문예약 등록 시 모델하우스 주소 SMS발송 및<br />

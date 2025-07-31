@@ -63,13 +63,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />  
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채- 체크포인트</title>
+        <title>김해 테크노밸리 제일풍경채- 체크포인트</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다"
+          content="김해 테크노밸리 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다"
         />
     <meta name="keywords"
-        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
+        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
@@ -78,11 +78,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채- 체크포인트"
+          content="김해 테크노밸리 제일풍경채- 체크포인트"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="김해 테크노밸리 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           property="og:image"
@@ -92,17 +92,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
         />
-        <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채- 체크포인트"
+          content="김해 테크노밸리 제일풍경채- 체크포인트"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="김해 테크노밸리 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           name="twitter:image"
@@ -119,8 +119,8 @@ const ComplexGuide1 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "김해 레포츠파크 제일풍경채- 체크포인트",
-                                            "description": "김해 레포츠파크 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
+                                            "name": "김해 테크노밸리 제일풍경채- 체크포인트",
+                                            "description": "김해 테크노밸리 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
                                             "url": "https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
                                         }
                                         `}
@@ -135,17 +135,17 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채- 체크포인트
+        김해 테크노밸리 제일풍경채- 체크포인트
       </h1>
       <p className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약
+        김해 테크노밸리 제일풍경채분양 전 필수 체크포인트를 확인하세요. 청약
         자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을
         정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수
         있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>김해 레포츠파크 제일풍경채가 눈부신 가치 위에</div>
+        <div>김해 테크노밸리 제일풍경채가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 

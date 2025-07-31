@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="김해 레포츠파크 제일풍경채119B 평면image" />
+			<Bener title="김해 테크노밸리 제일풍경채119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 

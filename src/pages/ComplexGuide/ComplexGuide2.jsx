@@ -62,13 +62,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채- 호수배치도</title>
+        <title>김해 테크노밸리 제일풍경채- 호수배치도</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="김해 테크노밸리 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
         />
     <meta name="keywords"
-        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" /> 
+        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" /> 
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/ComplexGuide/detailintro"
@@ -77,11 +77,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채- 호수배치도"
+          content="김해 테크노밸리 제일풍경채- 호수배치도"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="김해 테크노밸리 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
         />
         <meta
           property="og:image"
@@ -91,17 +91,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.diarivalencia.com/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채- 호수배치도"
+          content="김해 테크노밸리 제일풍경채- 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="김해 테크노밸리 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
         />
         <meta
           name="twitter:image"
@@ -118,8 +118,8 @@ const ComplexGuide1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채- 호수배치도",
-											"description": "김해 레포츠파크 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.",
+											"name": "김해 테크노밸리 제일풍경채- 호수배치도",
+											"description": "김해 테크노밸리 제일풍경채의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.",
 											"url": "https://www.diarivalencia.com/ComplexGuide/detailintro"
 										}
 										`}
@@ -131,7 +131,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채- 호수배치도
+        김해 테크노밸리 제일풍경채- 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -140,7 +140,7 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>김해 레포츠파크 제일풍경채가 눈부신 가치 위에</div>
+        <div>김해 테크노밸리 제일풍경채가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -148,7 +148,7 @@ const ComplexGuide1 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채호수배치도-image1"
+				alt="김해 테크노밸리 제일풍경채호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

@@ -103,14 +103,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채- 입지환경</title>
+        <title>김해 테크노밸리 제일풍경채- 입지환경</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="keywords"
-          content="김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채, 김해 레포츠파크 제일풍경채모델하우스"
+          content="김해 테크노밸리 제일풍경채, 김해 테크노밸리 제일풍경채, 김해 테크노밸리 제일풍경채모델하우스"
         />
         <link
           rel="canonical"
@@ -120,11 +120,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채- 입지환경"
+          content="김해 테크노밸리 제일풍경채- 입지환경"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           property="og:image"
@@ -134,17 +134,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://www.diarivalencia.com/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채- 입지환경"
+          content="김해 테크노밸리 제일풍경채- 입지환경"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -161,8 +161,8 @@ const LocationEnvironment1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "김해 레포츠파크 제일풍경채- 입지환경",
-											"description": "김해 레포츠파크 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",
+											"name": "김해 테크노밸리 제일풍경채- 입지환경",
+											"description": "김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",
 											"url": "https://www.diarivalencia.com/LocationEnvironment/intro"
 										}
 										`}
@@ -177,10 +177,10 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채- 입지안내
+        김해 테크노밸리 제일풍경채- 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
@@ -193,7 +193,7 @@ const LocationEnvironment1 = () => {
       <img
         src={page1}
         className={styles.image2}
-        alt="김해 레포츠파크 제일풍경채입지환경 이미지"
+        alt="김해 테크노밸리 제일풍경채입지환경 이미지"
       />
 
       <div className={styles.section2}>
@@ -208,7 +208,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>
-          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 김해 레포츠파크 제일풍경채 사업주체 및 시공사와 무관합니다.
+          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 김해 테크노밸리 제일풍경채 사업주체 및 시공사와 무관합니다.
         </div>
       </div>
 

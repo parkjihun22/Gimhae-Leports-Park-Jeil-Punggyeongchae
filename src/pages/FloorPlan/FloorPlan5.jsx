@@ -75,7 +75,7 @@ const FloorPlan5 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채84C 평면안내 이미지"
+				alt="김해 테크노밸리 제일풍경채84C 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

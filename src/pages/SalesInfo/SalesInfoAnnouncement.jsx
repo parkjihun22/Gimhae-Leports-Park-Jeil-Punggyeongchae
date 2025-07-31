@@ -80,13 +80,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 레포츠파크 제일풍경채- 모집공고안내</title>
+        <title>김해 테크노밸리 제일풍경채- 모집공고안내</title>
         <meta
           name="description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="김해 테크노밸리 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
     <meta name="keywords"
-        content="김해레포츠파크제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
+        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
         <link
           rel="canonical"
           href="https://www.diarivalencia.com/SalesInfo/announcement"
@@ -95,11 +95,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="김해 레포츠파크 제일풍경채- 모집공고안내"
+          content="김해 테크노밸리 제일풍경채- 모집공고안내"
         />
         <meta
           property="og:description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="김해 테크노밸리 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           property="og:image"
@@ -109,17 +109,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.diarivalencia.com/SalesInfo/announcement"
         />
-        <meta property="og:site_name" content="김해 레포츠파크 제일풍경채" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="김해 레포츠파크 제일풍경채- 모집공고안내"
+          content="김해 테크노밸리 제일풍경채- 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="김해 테크노밸리 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="twitter:image"
@@ -136,8 +136,8 @@ const ComplexGuide1 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "김해 레포츠파크 제일풍경채- 모집공고안내",
-                                            "description": "김해 레포츠파크 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
+                                            "name": "김해 테크노밸리 제일풍경채- 모집공고안내",
+                                            "description": "김해 테크노밸리 제일풍경채의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
                                             "url": "https://www.diarivalencia.com/SalesInfo/announcement"
                                         }
                                         `}
@@ -149,10 +149,10 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채- 모집공고안내
+        김해 테크노밸리 제일풍경채- 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        김해 레포츠파크 제일풍경채모집 공고는 분양 전 단계에서 중요한
+        김해 테크노밸리 제일풍경채모집 공고는 분양 전 단계에서 중요한
         안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건,
         필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을
         준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이
@@ -160,12 +160,12 @@ const ComplexGuide1 = () => {
       </p>
       <div className={styles.textBox}>
         <div>입주자 모집공고안내를 확인하세요</div>
-        <div>김해 레포츠파크 제일풍경채</div>
+        <div>김해 테크노밸리 제일풍경채</div>
       </div>
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="김해 레포츠파크 제일풍경채모집공고안내-image1"
+        alt="김해 테크노밸리 제일풍경채모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
          /> */}
       {/* 입주자 모집공고 PDF로 보기 버튼 */}

@@ -69,7 +69,7 @@ const Interior3 = () => {
 			{/*<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김해 레포츠파크 제일풍경채119타입 인테리어안내 image"
+				alt="김해 테크노밸리 제일풍경채119타입 인테리어안내 image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>*/}
 

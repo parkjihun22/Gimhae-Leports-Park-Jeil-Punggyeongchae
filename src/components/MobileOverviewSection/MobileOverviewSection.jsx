@@ -24,7 +24,7 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>김해 레포츠파크 제일풍경채</span>
+          <span>김해 테크노밸리 제일풍경채</span>
         </li>
         <li>
           <strong>대지위치</strong>
@@ -120,7 +120,7 @@ function PremiumSlider() {
       img: slide5,
       title: "3,724세대 푸르지오 대단지 프리미엄",
       desc:
-        "총 3,724세대 김해 레포츠파크 제일풍경채 메가타운으로 찾아옵니다",
+        "총 3,724세대 김해 테크노밸리 제일풍경채 메가타운으로 찾아옵니다",
     },
     {
       img: slide6,
