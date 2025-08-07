@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="레포츠파크 제일풍경채 -benerimage"
+                alt="테크노밸리 제일풍경채 -benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -40,7 +40,7 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '푸르지오' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내'| text === '김해 테크노밸리 제일풍경채') {
+    if (text === '푸르지오' || text === '홍보영상' || text === '장기일반민간임대'| text === '당첨자서류안내'| text === '김해 테크노밸리 제일풍경채') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>

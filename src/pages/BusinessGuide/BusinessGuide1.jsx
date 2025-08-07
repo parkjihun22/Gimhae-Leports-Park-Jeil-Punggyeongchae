@@ -14,20 +14,20 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
 	{ label: '사업명', value: '김해 테크노밸리 제일풍경채' },
-	{ label: '사업위치', value: '인천광역시 서구 청라동 86-6번지 (청라국제도시 업무용지 B1)' },
+	{ label: '사업위치', value: '김해 진례 시례지구 B-3블럭 공동주택 신축공사' },
 	{ label: '대지면적', value: '106,050.4985㎡' },
 	{ label: '건축면적', value: '13,404.3638㎡' },
 	{ label: '연면적', value: '376,069.7623㎡' },
 	{ label: '용적률', value: '229.55%' },
-	{ label: '건축규모', value: 'B2-27F, 7개동' },
-	{ label: '세대수', value: '660세대 / 84㎡A·B·C / 109㎡A·B·C / 132㎡A / 150㎡PA·PB·PC / 182㎡P' },
+	{ label: '건축규모', value: '지하3층 ~ 지상 15층, 9개동/ 부대복리시설,근린생활시설' },
+	{ label: '세대수', value: '440세대 / 84㎡A·B·C' },
 ];
 
 const BusinessGuide1 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
-		{ title: "분양일정", url: "/BusinessGuide/plan" },
-		{ title: "공급안내", url: "/BusinessGuide/documents" }
+		// { title: "분양일정", url: "/BusinessGuide/plan" },
+		// { title: "공급안내", url: "/BusinessGuide/documents" }
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const { pathname } = useLocation(); // 현재 경로를 가져옴

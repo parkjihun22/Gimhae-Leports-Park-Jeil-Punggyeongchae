@@ -200,7 +200,7 @@ const Main = () => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="레포츠파크 제일풍경채-mainimage1"
+              alt="테크노밸리 제일풍경채-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -217,7 +217,7 @@ const Main = () => {
                   레포츠파크의 중심이 될
                 </div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>레포츠파크 제일풍경채</div>
+                <div className={styles.mainImageText}>테크노밸리 제일풍경채</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -241,7 +241,7 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  레포츠파크 제일풍경채 중요 POINT
+                  테크노밸리 제일풍경채 중요 POINT
                 </div>
                 <div className={styles.text3}>
                   - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
@@ -281,7 +281,7 @@ const Main = () => {
                   <br />
                   <span>
                     최고의 브랜드 아파트 <br />
-                    레포츠파크 제일풍경채
+                    테크노밸리 제일풍경채
                   </span>
                 </div>
                 <div className={styles.subTitle}>
@@ -289,13 +289,13 @@ const Main = () => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    레포츠파크 제일풍경채가 함께합니다
+                    테크노밸리 제일풍경채가 함께합니다
                   </div>
                 </div>
               </div>
               <img
                 src={section8Img3}
-                alt="레포츠파크 제일풍경채 입지환경소개-image2"
+                alt="테크노밸리 제일풍경채 입지환경소개-image2"
               />
             </div>
           </div>
@@ -309,7 +309,7 @@ const Main = () => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  레포츠파크 제일풍경채에서 펼쳐집니다
+                  테크노밸리 제일풍경채에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -329,7 +329,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="레포츠파크 제일풍경채 아파트 조감도-image3"
+                alt="테크노밸리 제일풍경채 아파트 조감도-image3"
               />
             </div>
           </div>
@@ -361,9 +361,9 @@ const Main = () => {
               <div className={styles.imageBox}>
                 <img
                   src={section4_Image1}
-                  alt="레포츠파크 제일풍경채 브랜드소개-image4"
+                  alt="테크노밸리 제일풍경채 브랜드소개-image4"
                 />
-                <div className={styles.text1}>레포츠파크 제일풍경채</div>
+                <div className={styles.text1}>테크노밸리 제일풍경채</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>
                   당신의 삶, 그 고귀함이 계속되길
@@ -445,7 +445,7 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  레포츠파크 제일풍경채
+                  테크노밸리 제일풍경채
                   <br />
                   <span>견본주택 오시는길</span>
                 </div>
@@ -454,11 +454,11 @@ const Main = () => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    레포츠파크 제일풍경채가 함께합니다
+                    테크노밸리 제일풍경채가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="레포츠파크 제일풍경채 오시는길안내-image1" />
+              <img src={map1} alt="테크노밸리 제일풍경채 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -512,7 +512,7 @@ const Main = () => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="레포츠파크 제일풍경채 mobilemain-image1"
+              alt="테크노밸리 제일풍경채 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
 
@@ -595,7 +595,7 @@ const Main = () => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  레포츠파크 제일풍경채가 함께합니다
+                  테크노밸리 제일풍경채가 함께합니다
                 </div>
               </div>
             </div>
@@ -657,7 +657,7 @@ const Main = () => {
             <div>
               <img
                 src={section1_Image1}
-                alt="레포츠파크 제일풍경채 브랜드소개 mobile-image5"
+                alt="테크노밸리 제일풍경채 브랜드소개 mobile-image5"
               />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
@@ -725,7 +725,7 @@ const Main = () => {
             <div className={styles.section9}>
               <img
                 src={mobilemap1}
-                alt="레포츠파크 제일풍경채 오시는길안내-mobileimage2"
+                alt="테크노밸리 제일풍경채 오시는길안내-mobileimage2"
               />
             </div>
           </div> */}

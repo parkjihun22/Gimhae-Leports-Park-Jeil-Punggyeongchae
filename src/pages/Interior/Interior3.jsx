@@ -61,7 +61,7 @@ const Interior3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>레포츠파크 제일풍경채가 김해의 눈부신 가치 위에</div>
+				<div>테크노밸리 제일풍경채가 김해의 눈부신 가치 위에</div>
 				<div>새로운 자부심으로 찾아옵니다.</div>
 			</div>
 

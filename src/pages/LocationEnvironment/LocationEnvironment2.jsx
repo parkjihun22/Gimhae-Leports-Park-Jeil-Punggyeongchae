@@ -7,10 +7,9 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
-// import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
+import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
 
 const LocationEnvironment1 = () => {
   const menuContents = [
@@ -141,12 +140,12 @@ const LocationEnvironment1 = () => {
         <div>김해 테크노밸리 제일풍경채의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      {/* <img
+      <img
         src={page1}
         className={styles.image3}
-        alt="김해 테크노밸리 제일풍경채-image1"
-      />*/}
-      <Ready/>
+        alt="김해 테크노밸리 제일풍경채 프리미엄-image1"
+      />
+
 
       <Footer />
     </div>

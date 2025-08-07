@@ -25,14 +25,14 @@ const menuArray = [
     title: "사업개요",
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
-      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
+      // { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
   {
-    title: "청약안내",
+    title: "장기일반민간임대",
     subMenu: [
-      { subTitle: "청약제도변경", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+      { subTitle: "장기일반 민간임대", subUrl: "/SalesInfo/SubscriptionGuide" },
+      // { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
     ],
   },
   {
@@ -53,8 +53,8 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
+      // { subTitle: "59A", subUrl: "/FloorPlan/59A" },
+      // { subTitle: "59B", subUrl: "/FloorPlan/59B" },
       { subTitle: "84A", subUrl: "/FloorPlan/84A" },
       { subTitle: "84B", subUrl: "/FloorPlan/84B" },
       { subTitle: "84C", subUrl: "/FloorPlan/114A" },

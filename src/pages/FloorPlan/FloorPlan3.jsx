@@ -17,8 +17,8 @@ import Ready from "../../components/Ready/Ready"
 
 const FloorPlan3 = () => {
 	const menuContents = [
-		{ title: "59A", url: "/FloorPlan/59A" },
-		{ title: "59B", url: "/FloorPlan/59B" },
+		// { title: "59A", url: "/FloorPlan/59A" },
+		// { title: "59B", url: "/FloorPlan/59B" },
 		{ title: "84A", url: "/FloorPlan/84A" },
 		{ title: "84B", url: "/FloorPlan/84B" },
 		{ title: "84C", url: "/FloorPlan/114A" },
