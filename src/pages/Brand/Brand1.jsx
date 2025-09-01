@@ -47,80 +47,96 @@ const Brand1 = () => {
 
     return (
         <div className={styles.container}>
-<Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+          <Helmet>
+            {/* Basic */}
+            <meta charSet="utf-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1"
+            />
+            <meta name="theme-color" content="#ffffff" />
+            <meta name="robots" content="index, follow" />
+            <html lang="ko" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 브랜드 소개</title>
-        <meta
-          name="description"
-          content="김해 테크노밸리 제일풍경채의 브랜드 철학과 가치를 소개합니다. 대우건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 힐스테이트의 브랜드 스토리와 비전을 확인해보세요."
-        />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/Brand/intro"
-        />
+            {/* Primary SEO */}
+            <title>김해 테크노밸리 제일풍경채 – 브랜드 소개</title>
+            <meta
+              name="description"
+              content="제일건설의 주거 브랜드 ‘제일풍경채’가 지향하는 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다. 김해 테크노밸리에서 펼쳐질 라이프스타일 비전과 브랜드 스토리를 확인해보세요."
+            />
+            <meta
+              name="keywords"
+              content="김해 테크노밸리 제일풍경채, 제일풍경채, 김해 제일풍경채, 제일건설, 브랜드 소개, 주거 브랜드, 김해테크노밸리"
+            />
+            <link rel="canonical" href="https://www.diarivalencia.com/Brand/intro" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 브랜드 소개"
-        />
-        <meta
-          property="og:description"
-          content="김해 테크노밸리 제일풍경채의 브랜드 철학과 가치를 소개합니다. 대우건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 힐스테이트의 브랜드 스토리와 비전을 확인해보세요."
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/Brand/intro"
-        />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="ko_KR" />
+            <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+            <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 브랜드 소개" />
+            <meta
+              property="og:description"
+              content="제일건설의 주거 브랜드 ‘제일풍경채’가 지향하는 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다. 김해 테크노밸리의 비전과 브랜드 스토리를 확인하세요."
+            />
+            <meta property="og:url" content="https://www.diarivalencia.com/Brand/intro" />
+            <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+            <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 브랜드 이미지" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 브랜드 소개"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 테크노밸리 제일풍경채의 브랜드 철학과 가치를 소개합니다. 대우건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 힐스테이트의 브랜드 스토리와 비전을 확인해보세요."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/Brand/intro"
-        />
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 브랜드 소개" />
+            <meta
+              name="twitter:description"
+              content="제일건설의 주거 브랜드 ‘제일풍경채’의 철학·가치·기술을 소개합니다."
+            />
+            <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+            <meta name="twitter:url" content="https://www.diarivalencia.com/Brand/intro" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "김해 테크노밸리 제일풍경채- 브랜드 소개",
-                                            "description": "김해 테크노밸리 제일풍경채의 브랜드 철학과 가치를 소개합니다. 대우건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 힐스테이트의 브랜드 스토리와 비전을 확인해보세요.",
-                                            "url": "https://www.diarivalencia.com/Brand/intro"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
+            {/* Structured Data: AboutPage + Brand + Breadcrumbs */}
+            <script type="application/ld+json">
+              {`{
+                "@context": "https://schema.org",
+                "@type": "AboutPage",
+                "name": "김해 테크노밸리 제일풍경채 – 브랜드 소개",
+                "url": "https://www.diarivalencia.com/Brand/intro",
+                "inLanguage": "ko-KR",
+                "description": "제일건설의 주거 브랜드 ‘제일풍경채’의 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다.",
+                "isPartOf": {
+                  "@type": "WebSite",
+                  "name": "김해 테크노밸리 제일풍경채",
+                  "url": "https://www.diarivalencia.com"
+                },
+                "breadcrumb": {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "홈",
+                    "item": "https://www.diarivalencia.com/"
+                  }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "브랜드 소개",
+                    "item": "https://www.diarivalencia.com/Brand/intro"
+                  }]
+                },
+                "about": {
+                  "@type": "Brand",
+                  "name": "제일풍경채",
+                  "url": "https://www.jeilcon.co.kr/",
+                  "logo": "https://www.diarivalencia.com/Main1.png",
+                  "slogan": "Life with Perspective",
+                  "brandMaintainer": {
+                    "@type": "Organization",
+                    "name": "제일건설",
+                    "url": "https://www.jeilcon.co.kr/"
+                  }
+                }
+              }`}
+            </script>
+          </Helmet>
+
             
 
             <Header isChanged={isScroll} />

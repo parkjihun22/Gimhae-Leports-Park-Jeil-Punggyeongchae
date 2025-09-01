@@ -42,25 +42,75 @@ const Emodel = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-        <title>김해 테크노밸리 제일풍경채- E-모델하우스</title>
-        <meta name="description" content="김해 테크노밸리 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="keywords" content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, E-모델하우스, 온라인모델하우스" />
-        <link rel="canonical" href="https://www.diarivalencia.com/FloorPlan/Emodel" />
-        <meta property="og:title" content="김해 테크노밸리 제일풍경채- E-모델하우스" />
-        <meta property="og:description" content="김해 테크노밸리 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
-        <meta property="og:url" content="https://www.diarivalencia.com/FloorPlan/Emodel" />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="김해 테크노밸리 제일풍경채- E-모델하우스" />
-        <meta name="twitter:description" content="김해 테크노밸리 제일풍경채의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
-      </Helmet>
+        <Helmet>
+          {/* 기본 설정 */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+          <meta name="theme-color" content="#ffffff" />
+          <meta name="robots" content="index, follow" />
+          <html lang="ko" />
+
+          {/* Primary SEO */}
+          <title>김해 테크노밸리 제일풍경채 – E-모델하우스</title>
+          <meta
+            name="description"
+            content="김해 테크노밸리 제일풍경채 E-모델하우스를 온라인으로 둘러보세요. 주요 타입 내부, 수납·동선 설계, 마감재 포인트를 360°로 확인하고 방문예약까지 한 번에."
+          />
+          <link rel="canonical" href="https://www.diarivalencia.com/FloorPlan/Emodel" />
+
+          {/* Open Graph */}
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="ko_KR" />
+          <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+          <meta property="og:title" content="김해 테크노밸리 제일풍경채 – E-모델하우스" />
+          <meta
+            property="og:description"
+            content="주요 타입 내부를 온라인으로 생생하게 확인하고 방문예약까지 간편하게."
+          />
+          <meta property="og:url" content="https://www.diarivalencia.com/FloorPlan/Emodel" />
+          <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+          <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 E-모델하우스 미리보기" />
+
+          {/* Twitter */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – E-모델하우스" />
+          <meta
+            name="twitter:description"
+            content="온라인 E-모델하우스로 내부 구조·마감 포인트를 확인하세요."
+          />
+          <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+
+          {/* JSON-LD: WebPage + Breadcrumbs (강화형) */}
+          <script type="application/ld+json">
+            {`{
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "김해 테크노밸리 제일풍경채 – E-모델하우스",
+              "url": "https://www.diarivalencia.com/FloorPlan/Emodel",
+              "inLanguage": "ko-KR",
+              "description": "김해 테크노밸리 제일풍경채 E-모델하우스 온라인 투어. 내부 구조와 마감 포인트를 확인하고 방문예약까지.",
+              "isPartOf": {
+                "@type": "WebSite",
+                "name": "김해 테크노밸리 제일풍경채",
+                "url": "https://www.diarivalencia.com"
+              },
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "홈",
+                  "item": "https://www.diarivalencia.com/"
+                }, {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "E-모델하우스",
+                  "item": "https://www.diarivalencia.com/FloorPlan/Emodel"
+                }]
+              }
+            }`}
+          </script>
+        </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

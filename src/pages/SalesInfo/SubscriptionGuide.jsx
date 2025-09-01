@@ -7,7 +7,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/SalesInfo/SubscriptionGuide/page1.jpg";
 
 
@@ -51,80 +51,6 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />  
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 장기일반민간임대</title>
-        <meta
-          name="description"
-          content="김해 테크노밸리 제일풍경채분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다"
-        />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 장기일반민간임대"
-        />
-        <meta
-          property="og:description"
-          content="김해 테크노밸리 제일풍경채분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
-        />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 장기일반민간임대"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 테크노밸리 제일풍경채분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "김해 테크노밸리 제일풍경채- 장기일반민간임대",
-                                            "description": "김해 테크노밸리 제일풍경채분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
-                                            "url": "https://www.diarivalencia.com/SalesInfo/SubscriptionGuide"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

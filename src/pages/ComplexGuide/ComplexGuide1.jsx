@@ -50,80 +50,62 @@ const ComplexGuide1 = () => {
 
 	return (
 		<div className={styles.container}>
-<Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
+				<Helmet>
+				{/* 기본 설정 */}
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+				<meta name="theme-color" content="#ffffff" />
+				<meta name="robots" content="index, follow" />
+				<html lang="ko" />
 
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>김해 테크노밸리 제일풍경채- 단지배치도</title>
-		<meta
-		  name="description"
-		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
-		/>
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />	
-		<link
-		  rel="canonical"
-		  href="https://www.diarivalencia.com/ComplexGuide/intro"
-		/>
+				{/* SEO 메타 */}
+				<title>김해 테크노밸리 제일풍경채 – 단지배치도</title>
+				<meta
+					name="description"
+					content="김해 테크노밸리 제일풍경채 단지 배치도를 통해 각 동의 위치와 편의시설 배치를 확인하세요. 효율적인 동선 설계, 쾌적한 조경 공간, 입주민 생활 편의를 고려한 배치 정보를 안내합니다."
+				/>
+				<meta
+					name="keywords"
+					content="김해테크노밸리제일풍경채, 제일풍경채 단지배치도, 김해 아파트 배치도, 동 배치, 조경, 커뮤니티시설"
+				/>
+				<link rel="canonical" href="https://www.diarivalencia.com/ComplexGuide/intro" />
 
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="김해 테크노밸리 제일풍경채- 단지배치도"
-		/>
-		<meta
-		  property="og:description"
-		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
-		/>
-		<meta
-		  property="og:image"
-		  content="https://www.diarivalencia.com/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://www.diarivalencia.com/ComplexGuide/intro"
-		/>
-		<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+				{/* Open Graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:locale" content="ko_KR" />
+				<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+				<meta property="og:title" content="김해 테크노밸리 제일풍경채 – 단지배치도" />
+				<meta
+					property="og:description"
+					content="김해 테크노밸리 제일풍경채 단지 배치도 – 동별 위치, 편의시설, 조경과 동선 설계를 확인하세요."
+				/>
+				<meta property="og:url" content="https://www.diarivalencia.com/ComplexGuide/intro" />
+				<meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+				<meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 단지배치도 이미지" />
 
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="김해 테크노밸리 제일풍경채- 단지배치도"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다."
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://www.diarivalencia.com/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://www.diarivalencia.com/ComplexGuide/intro"
-		/>
+				{/* Twitter */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 단지배치도" />
+				<meta
+					name="twitter:description"
+					content="제일풍경채 단지 배치도에서 동 위치와 편의시설 배치를 확인하세요."
+				/>
+				<meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+				<meta name="twitter:url" content="https://www.diarivalencia.com/ComplexGuide/intro" />
 
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 단지배치도",
-											"description": "김해 테크노밸리 제일풍경채의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.",
-											"url": "https://www.diarivalencia.com/ComplexGuide/intro"
-										}
-										`}
-		</script>
-	  </Helmet> 
+				{/* JSON-LD */}
+				<script type="application/ld+json">
+					{`{
+					"@context": "https://schema.org",
+					"@type": "WebPage",
+					"name": "김해 테크노밸리 제일풍경채 – 단지배치도",
+					"description": "김해 테크노밸리 제일풍경채 단지 배치도를 통해 동 위치와 편의시설 배치를 확인하세요. 효율적인 동선 설계와 조경, 생활 편의를 고려한 배치 정보를 안내합니다.",
+					"url": "https://www.diarivalencia.com/ComplexGuide/intro",
+					"inLanguage": "ko-KR"
+					}`}
+				</script>
+				</Helmet>
+
 
 			<Header isChanged={isScroll} />
 			<FixIcon />

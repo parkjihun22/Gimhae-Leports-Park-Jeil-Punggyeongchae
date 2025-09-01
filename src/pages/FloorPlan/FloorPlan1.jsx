@@ -60,77 +60,59 @@ const FloorPlan1 = () => {
       <Helmet>
         {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
+        <html lang="ko" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 평면안내</title>
+        <title>김해 테크노밸리 제일풍경채 – 평면안내</title>
         <meta
           name="description"
-          content="김해 테크노밸리 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content="김해 테크노밸리 제일풍경채 평면안내 – 세대별 구조, 공간 활용, 수납 설계와 동선까지 꼼꼼히 확인하세요. 실용성과 혁신을 담은 다양한 타입 구성으로 생활 만족도를 높입니다."
         />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/FloorPlan/59A"
+        <meta
+          name="keywords"
+          content="김해테크노밸리제일풍경채, 제일풍경채 평면도, 아파트 평면안내, 세대별 구조, 공간 활용"
         />
+        <link rel="canonical" href="https://www.diarivalencia.com/FloorPlan/59A" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 평면안내"
-        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="ko_KR" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 평면안내" />
         <meta
           property="og:description"
-          content="김해 테크노밸리 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content="세대별 구조와 공간 활용, 다양한 타입 구성으로 실용적이고 편리한 주거 환경을 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/FloorPlan/59A"
-        />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+        <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 평면도 미리보기" />
+        <meta property="og:url" content="https://www.diarivalencia.com/FloorPlan/59A" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 평면안내"
-        />
+        <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 평면안내" />
         <meta
           name="twitter:description"
-          content="김해 테크노밸리 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content="세대별 평면도와 공간 활용, 다양한 타입 구성으로 생활 만족도를 높이는 평면안내."
         />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/FloorPlan/59A"
-        />
+        <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.diarivalencia.com/FloorPlan/59A" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        {/* 구조화된 데이터 (JSON-LD) */}
         <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 평면안내",
-											"description": "김해 테크노밸리 제일풍경채의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.",
-											"url": "https://www.diarivalencia.com/FloorPlan/59A"
-										}
-										`}
+          {`{
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "김해 테크노밸리 제일풍경채 – 평면안내",
+            "description": "김해 테크노밸리 제일풍경채 평면안내 – 세대별 구조, 공간 활용, 수납 설계와 동선까지 확인하세요. 다양한 타입 구성으로 생활 만족도를 높입니다.",
+            "url": "https://www.diarivalencia.com/FloorPlan/59A",
+            "inLanguage": "ko-KR"
+          }`}
         </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

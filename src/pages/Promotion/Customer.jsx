@@ -9,6 +9,8 @@ import Bener from "../../components/Bener/Bener";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Customer() {
   const { pathname } = useLocation();
   useEffect(() => window.scrollTo(0, 0), [pathname]);
@@ -62,7 +64,83 @@ export default function Customer() {
   ];
 
   return (
-    <>
+<>
+      <Helmet>
+        {/* 기본 설정 */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+        <html lang="ko" />
+
+        {/* Primary SEO */}
+        <title>김해 테크노밸리 제일풍경채 – 관심고객 등록</title>
+        <meta
+          name="description"
+          content="김해 테크노밸리 제일풍경채 관심고객 등록 페이지입니다. 분양일정, 방문예약, 당첨자 서류 등 알림을 받아 보시고 상담 요청을 남겨주세요."
+        />
+        <link rel="canonical" href="https://www.diarivalencia.com/Contact/interest" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="ko_KR" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 관심고객 등록" />
+        <meta
+          property="og:description"
+          content="분양 소식과 방문예약 안내를 빠르게 받아보세요. 간편한 문의/알림 신청."
+        />
+        <meta property="og:url" content="https://www.diarivalencia.com/Contact/interest" />
+        <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 관심고객 등록 안내 이미지" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 관심고객 등록" />
+        <meta
+          name="twitter:description"
+          content="분양일정·방문예약 알림과 상담 요청을 간편하게 남겨주세요."
+        />
+        <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.diarivalencia.com/Contact/interest" />
+
+        {/* JSON-LD: ContactPage + Breadcrumbs (강화형) */}
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "김해 테크노밸리 제일풍경채 – 관심고객 등록",
+            "url": "https://www.diarivalencia.com/Contact/interest",
+            "inLanguage": "ko-KR",
+            "description": "김해 테크노밸리 제일풍경채 관심고객 등록. 분양일정, 방문예약, 당첨자 서류 안내 알림 및 상담 요청.",
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "김해 테크노밸리 제일풍경채",
+              "url": "https://www.diarivalencia.com"
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://www.diarivalencia.com/"
+              }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "관심고객 등록",
+                "item": "https://www.diarivalencia.com/Contact/interest"
+              }]
+            },
+            "potentialAction": {
+              "@type": "SubmitAction",
+              "target": "https://www.diarivalencia.com/Contact/interest",
+              "name": "관심고객 등록 제출"
+            }
+          }`}
+        </script>
+      </Helmet>
+
       <Header />
       <FixIcon />
 

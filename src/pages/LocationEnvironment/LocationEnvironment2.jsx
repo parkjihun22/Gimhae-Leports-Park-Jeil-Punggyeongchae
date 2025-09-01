@@ -44,80 +44,33 @@ const LocationEnvironment1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        {/* 기본 설정 */}
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
+        <html lang="ko" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 프리미엄</title>
+        {/* SEO 핵심 */}
+        <title>김해 테크노밸리 제일풍경채 – 프리미엄</title>
         <meta
           name="description"
-          content="김해 테크노밸리 제일풍경채만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
+          content="김해 테크노밸리 제일풍경채 프리미엄 – 세련된 디자인, 첨단 설비, 입주민 특화 혜택으로 차별화된 주거 가치를 제공합니다."
         />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
+        <link rel="canonical" href="https://www.diarivalencia.com/LocationEnvironment/primium" />
 
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/LocationEnvironment/primium"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 프리미엄"
-        />
-        <meta
-          property="og:description"
-          content="김해 테크노밸리 제일풍경채만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/LocationEnvironment/primium"
-        />
+        {/* Open Graph (필수만) */}
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 프리미엄" />
+        <meta property="og:description" content="세련된 디자인과 입주민 특화 혜택으로 차별화된 가치를 제공합니다." />
+        <meta property="og:url" content="https://www.diarivalencia.com/LocationEnvironment/primium" />
+        <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter (간단히) */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 프리미엄"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 테크노밸리 제일풍경채만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/LocationEnvironment/primium"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 프리미엄",
-											"description": "김해 테크노밸리 제일풍경채만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다.",
-											"url": "https://www.diarivalencia.com/LocationEnvironment/primium"
-										}
-										`}
-        </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

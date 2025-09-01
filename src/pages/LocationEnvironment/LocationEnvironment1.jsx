@@ -92,82 +92,62 @@ const LocationEnvironment1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          {/* 기본 설정 */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+          <meta name="theme-color" content="#ffffff" />
+          <meta name="robots" content="index, follow" />
+          <html lang="ko" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 입지환경</title>
-        <meta
-          name="description"
-          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
-        />
-        <meta
-          name="keywords"
-          content="김해 테크노밸리 제일풍경채, 김해 테크노밸리 제일풍경채, 김해 테크노밸리 제일풍경채모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/LocationEnvironment/intro"
-        />
+          {/* SEO 메타 */}
+          <title>김해 테크노밸리 제일풍경채 – 입지환경</title>
+          <meta
+            name="description"
+            content="김해 테크노밸리 제일풍경채 입지환경 – 교통망, 생활 인프라, 교육, 쇼핑, 자연환경까지 모두 갖춘 김해의 중심 입지를 소개합니다. 생활 편의성과 미래가치가 뛰어난 주거 환경을 확인하세요."
+          />
+          <meta
+            name="keywords"
+            content="김해테크노밸리제일풍경채, 제일풍경채 입지환경, 교통망, 생활 인프라, 김해 아파트 입지"
+          />
+          <link rel="canonical" href="https://www.diarivalencia.com/LocationEnvironment/intro" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 입지환경"
-        />
-        <meta
-          property="og:description"
-          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/LocationEnvironment/intro"
-        />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+          {/* Open Graph */}
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="ko_KR" />
+          <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+          <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 입지환경" />
+          <meta
+            property="og:description"
+            content="김해 테크노밸리 제일풍경채 입지환경 – 교통, 생활 인프라, 교육, 자연환경을 모두 갖춘 김해의 중심 입지."
+          />
+          <meta property="og:url" content="https://www.diarivalencia.com/LocationEnvironment/intro" />
+          <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+          <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 입지환경 전경 이미지" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 입지환경"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/LocationEnvironment/intro"
-        />
+          {/* Twitter */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 입지환경" />
+          <meta
+            name="twitter:description"
+            content="교통, 생활 인프라, 교육, 자연환경을 모두 갖춘 김해의 중심 입지를 확인하세요."
+          />
+          <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+          <meta name="twitter:url" content="https://www.diarivalencia.com/LocationEnvironment/intro" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 입지환경",
-											"description": "김해 테크노밸리 제일풍경채의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",
-											"url": "https://www.diarivalencia.com/LocationEnvironment/intro"
-										}
-										`}
-        </script>
-      </Helmet>
+          {/* JSON-LD */}
+          <script type="application/ld+json">
+            {`{
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "김해 테크노밸리 제일풍경채 – 입지환경",
+              "description": "김해 테크노밸리 제일풍경채 입지환경 – 교통망, 생활 인프라, 교육, 쇼핑, 자연환경까지 모두 갖춘 김해의 중심 입지를 소개합니다.",
+              "url": "https://www.diarivalencia.com/LocationEnvironment/intro",
+              "inLanguage": "ko-KR"
+            }`}
+          </script>
+        </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

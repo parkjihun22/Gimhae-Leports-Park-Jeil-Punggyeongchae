@@ -51,79 +51,33 @@ const ComplexGuide3 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        {/* 기본 설정 */}
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
+        <html lang="ko" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 커뮤니티</title>
+        {/* SEO 핵심 */}
+        <title>김해 테크노밸리 제일풍경채 – 커뮤니티</title>
         <meta
           name="description"
-          content="김해 테크노밸리 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
+          content="김해 테크노밸리 제일풍경채 커뮤니티 시설: 피트니스, 독서실, 카페 등 편의시설을 소개합니다."
         />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/ComplexGuide/community"
-        />
+        <link rel="canonical" href="https://www.diarivalencia.com/ComplexGuide/community" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 커뮤니티"
-        />
-        <meta
-          property="og:description"
-          content="김해 테크노밸리 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/ComplexGuide/community"
-        />
+        {/* Open Graph (필수만) */}
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 커뮤니티" />
+        <meta property="og:description" content="커뮤니티 시설과 편의시설을 한눈에 확인하세요." />
+        <meta property="og:url" content="https://www.diarivalencia.com/ComplexGuide/community" />
+        <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter (간단히) */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 커뮤니티"
-        />
-        <meta
-          name="twitter:description"
-          content="김해 테크노밸리 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/ComplexGuide/community"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 커뮤니티",
-											"description": "김해 테크노밸리 제일풍경채의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.",
-											"url": "https://www.diarivalencia.com/ComplexGuide/community"
-										}
-										`}
-        </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

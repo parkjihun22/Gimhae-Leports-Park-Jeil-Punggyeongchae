@@ -61,7 +61,7 @@ const section3Contents = [
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
     text1: `여유로운 직주근접 단지`,
-    text2: `세계최대규모 김해 레포츠파크<br />
+    text2: `전국 최대 김해 레포츠파크<br />
 			      레포츠파크의 미래를 선점하는 수혜단지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
@@ -200,7 +200,7 @@ const Main = () => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="테크노밸리 제일풍경채-mainimage1"
+              alt="김해 테크노밸리 제일풍경채-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -246,7 +246,7 @@ const Main = () => {
                 <div className={styles.text3}>
                   - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
                   - 10년동안 안전하게 이사걱정을 하지 않고 10년후에는 내집으로 마련을 할수 있는 기회<br />
-                  - 김해 도심 및 부산과 창원등 수도권 인근 도시로 연결이 되는 주요 도로망이 인접<br />-
+                  - 김해 도심 및 부산·창원 등 인접 도시로 연결되는 주요 도로망 인접<br />-
                   - 모두를 누리는 김해 테크노밸리 제일풍경채
                 </div>
                 <div className={styles.text4}>
@@ -264,7 +264,7 @@ const Main = () => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="김해 테크노밸리 제일풍경채 브랜드소개-image2"
+                  alt="김해 테크노밸리 제일풍경채 브랜드소개 두번째 이미지"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -295,7 +295,7 @@ const Main = () => {
               </div>
               <img
                 src={section8Img3}
-                alt="테크노밸리 제일풍경채 입지환경소개-image2"
+                alt="김해 테크노밸리 제일풍경채 입지환경 소개 이미지"
               />
             </div>
           </div>
@@ -309,7 +309,7 @@ const Main = () => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  테크노밸리 제일풍경채에서 펼쳐집니다
+                  김해 테크노밸리 제일풍경채에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -329,7 +329,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="테크노밸리 제일풍경채 아파트 조감도-image3"
+                alt="김해 테크노밸리 제일풍경채 아파트 조감도"
               />
             </div>
           </div>
@@ -363,7 +363,7 @@ const Main = () => {
                   src={section4_Image1}
                   alt="테크노밸리 제일풍경채 브랜드소개-image4"
                 />
-                <div className={styles.text1}>테크노밸리 제일풍경채</div>
+                <div className={styles.text1}>김해 테크노밸리 제일풍경채</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>
                   당신의 삶, 그 고귀함이 계속되길
@@ -512,7 +512,7 @@ const Main = () => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="테크노밸리 제일풍경채 mobilemain-image1"
+              alt="김해 테크노밸리 제일풍경채 모바일 메인 이미지"
             />
             <div className={styles.overlay}></div>
 
@@ -551,7 +551,7 @@ const Main = () => {
                   - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
                   - 10년동안 안전하게 이사걱정을 하지 않고<br />
                   - 10년후에는 내집으로 마련을 할수 있는 기회<br />
-                  - 김해 도심 및 부산과 창원등 수도권으로 연결되는 주요 도로망이 인접<br />
+                  - 김해 도심 및 부산·창원 등 인접 도시로 연결되는 주요 도로망 인접<br />
                   - 모두를 누리는 김해 테크노밸리 제일풍경채
             </div>
             <div className={styles.text4}>

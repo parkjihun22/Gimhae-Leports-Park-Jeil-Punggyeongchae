@@ -54,81 +54,37 @@ const Interior1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          {/* 기본 설정 */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+          <meta name="theme-color" content="#ffffff" />
+          <meta name="robots" content="index, follow" />
+          <html lang="ko" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>김해 테크노밸리 제일풍경채- 인테리어</title>
-        <meta
-          name="description"
-          content="인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
-        />
-    <meta name="keywords"
-        content="김해테크노밸리제일풍경채, 레포츠파크제일풍경채, 테크노벨리제일풍경채" />
-        <link
-          rel="canonical"
-          href="https://www.diarivalencia.com/Interior/59A"
-        />
+          {/* SEO 핵심 */}
+          <title>김해 테크노밸리 제일풍경채 – 인테리어</title>
+          <meta
+            name="description"
+            content="김해 테크노밸리 제일풍경채 인테리어 – 세련된 디자인과 고급 자재, 최신 인테리어 요소로 완성된 생활 공간을 소개합니다."
+          />
+          <link rel="canonical" href="https://www.diarivalencia.com/Interior/59A" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="김해 테크노밸리 제일풍경채- 인테리어"
-        />
-        <meta
-          property="og:description"
-          content="인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
-        />
-        <meta
-          property="og:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.diarivalencia.com/Interior/59A"
-        />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+          {/* Open Graph (필수만) */}
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
+          <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 인테리어" />
+          <meta
+            property="og:description"
+            content="세련된 디자인과 최신 인테리어 요소로 완성된 주거 공간을 확인하세요."
+          />
+          <meta property="og:url" content="https://www.diarivalencia.com/Interior/59A" />
+          <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="김해 테크노밸리 제일풍경채- 인테리어"
-        />
-        <meta
-          name="twitter:description"
-          content="인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.diarivalencia.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.diarivalencia.com/Interior/59A"
-        />
+          {/* Twitter (간단히) */}
+          <meta name="twitter:card" content="summary_large_image" />
+        </Helmet>
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "김해 테크노밸리 제일풍경채- 인테리어",
-											"description": "인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",
-											"url": "https://www.diarivalencia.com/Interior/59A"
-										}
-										`}
-        </script>
-      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -138,7 +94,7 @@ const Interior1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 59A 인테리어
+        김해 테크노밸리 제일풍경채- 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
         인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을
