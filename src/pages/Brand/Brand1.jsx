@@ -142,7 +142,7 @@ const Brand1 = () => {
             <Header isChanged={isScroll} />
             <FixIcon />
 
-            <Bener title="푸르지오" />
+            <Bener title="풍경채" />
 
             <MenuBar contents={menuContents} />
             {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}

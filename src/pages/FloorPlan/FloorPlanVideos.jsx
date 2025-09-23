@@ -144,7 +144,7 @@ const FloorPlanVideos = () => {
 
       <div className={styles.textBox}>
         <div>김해 레포츠파크의 눈부신 가치 위에 찾아오는</div>
-        <div>푸르지오의 가치를 영상으로 확인해보세요</div>
+        <div>풍경채의 가치를 영상으로 확인해보세요</div>
       </div>
 
       {/* 탭 메뉴 */}

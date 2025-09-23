@@ -85,7 +85,7 @@ const LocationEnvironment1 = () => {
       <p className={styles.screenReaderOnly}>
         김해 테크노밸리 제일풍경채만의 차별화된 프리미엄을 만나보세요. 고급스러운
         디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해
-        푸르지오만의 독보적인 가치를 제공합니다.
+        풍경채만의 독보적인 가치를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
