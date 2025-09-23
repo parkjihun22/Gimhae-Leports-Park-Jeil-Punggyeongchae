@@ -10,9 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/FloorPlan/FloorPlan5/page1.jpg"
-
-import Ready from "../../components/Ready/Ready"
+import page1 from "../../assets/FloorPlan/FloorPlan5/unit03.jpg"
 
 
 const FloorPlan5 = () => {
@@ -72,14 +70,13 @@ const FloorPlan5 = () => {
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/* <img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="김해 테크노밸리 제일풍경채84C 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
+			/>
 
-			<Ready/>
 
 
 
