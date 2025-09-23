@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    { title: "59A", key: "59A" },
-    { title: "59B", key: "59B" },
+    // { title: "59A", key: "59A" },
+    // { title: "59B", key: "59B" },
     { title: "84A", key: "84A" },
     { title: "84B", key: "84B" },
   ];
