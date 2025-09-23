@@ -20,11 +20,11 @@ const Emodel = () => {
   const vrUrls = {
     // "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
     // "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
-    // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-    // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+    "84A": "https://jeil-gh.co.kr/vr/tour_84a.html",
+    "84B": "https://jeil-gh.co.kr/vr/tour_84b.html",
   };
 
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("84A");
   const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
 

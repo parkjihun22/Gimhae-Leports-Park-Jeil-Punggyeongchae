@@ -5,19 +5,19 @@ import styles from "./EmodelInline.module.scss";
 const menuContents = [
   // { title: "59A", key: "59A" },
   // { title: "59B", key: "59B" },
-  // { title: "84A", key: "84A" },
-  // { title: "84B", key: "84B" },
+  { title: "84A", key: "84A" },
+  { title: "84B", key: "84B" },
 ];
 
 const vrUrls = {
   // "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
   // "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
-  // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-  // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+  "84A": "https://jeil-gh.co.kr/vr/tour_84a.html",
+  "84B": "https://jeil-gh.co.kr/vr/tour_84b.html",
 };
 
 export default function EmodelInline() {
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("84A");
 
   return (
     <div className={styles.inlineWrapper}>
