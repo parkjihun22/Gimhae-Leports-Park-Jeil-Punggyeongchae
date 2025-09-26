@@ -217,7 +217,7 @@ const Main = () => {
                   레포츠파크의 중심이 될
                 </div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>테크노밸리 제일풍경채</div>
+                <div className={styles.mainImageText}>김해 테크노밸리 제일풍경채 2차</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -519,11 +519,11 @@ const Main = () => {
             {/* 기존 텍스트 */}
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                HUG주택도시보증공사 
+                1차 청약으로 단 하루만에 
                 <br />
-                <span className={styles.greyText1}>임대보증금 100%보증</span>
+                <span className={styles.greyText1}>100% 완판</span>
                 <br />
-                1군브랜드
+                신뢰할 수 있는 브랜드
                 <br />
                 <span className={styles.greyText1}>브랜드 프리미엄</span>
                 <br />
@@ -533,7 +533,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  김해 테크노밸리 제일풍경채
+                  김해 테크노밸리 제일풍경채 2차
                 </div>
               </div>
             </div>
