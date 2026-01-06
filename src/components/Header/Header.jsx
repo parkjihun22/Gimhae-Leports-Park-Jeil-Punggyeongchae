@@ -26,15 +26,19 @@ const menuArray = [
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
       // { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
+      { subTitle: "공급안내", subUrl: "/BusinessGuide/documents" },
     ],
   },
   {
     title: "장기일반민간임대",
     subMenu: [
-      { subTitle: "장기일반 민간임대", subUrl: "/SalesInfo/SubscriptionGuide" },
-      // { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+      { subTitle: "장기일반민간임대", subUrl: "/SalesInfo/SubscriptionGuide" },
+      { subTitle: "파격적인특별혜택", subUrl: "/SalesInfo/guide" },
+      { subTitle: "부담없는계약조건", subUrl: "/SalesInfo/stampTax" },
+      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
     ],
   },
+
   {
     title: "입지환경",
     subMenu: [
@@ -64,8 +68,8 @@ const menuArray = [
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "59A", subUrl: "/Interior/59A" },
-      { subTitle: "84A", subUrl: "/Interior/84A" },
+      { subTitle: "84A", subUrl: "/Interior/59A" },
+      { subTitle: "84B", subUrl: "/Interior/84A" },
     ],
   },
   {

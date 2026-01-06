@@ -80,7 +80,7 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            레포츠파크의 중심으로 사는<br />
+            김해 테크노밸리의 중심으로 사는<br />
             최고의 브랜드 아파트
           </p>
         </div>

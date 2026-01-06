@@ -18,8 +18,8 @@ import Ready from "../../components/Ready/Ready"
 
 const Interior1 = () => {
   const menuContents = [
-    { title: "59㎡", url: "/Interior/59A" },
-    { title: "84㎡", url: "/Interior/84A" },
+    { title: "84A", url: "/Interior/59A" },
+    { title: "84B", url: "/Interior/84A" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -54,36 +54,6 @@ const Interior1 = () => {
 
   return (
     <div className={styles.container}>
-        <Helmet>
-          {/* 기본 설정 */}
-          <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <meta name="theme-color" content="#ffffff" />
-          <meta name="robots" content="index, follow" />
-          <html lang="ko" />
-
-          {/* SEO 핵심 */}
-          <title>김해 테크노밸리 제일풍경채 – 인테리어</title>
-          <meta
-            name="description"
-            content="김해 테크노밸리 제일풍경채 인테리어 – 세련된 디자인과 고급 자재, 최신 인테리어 요소로 완성된 생활 공간을 소개합니다."
-          />
-          <link rel="canonical" href="https://www.diarivalencia.com/Interior/59A" />
-
-          {/* Open Graph (필수만) */}
-          <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-          <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 인테리어" />
-          <meta
-            property="og:description"
-            content="세련된 디자인과 최신 인테리어 요소로 완성된 주거 공간을 확인하세요."
-          />
-          <meta property="og:url" content="https://www.diarivalencia.com/Interior/59A" />
-          <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
-
-          {/* Twitter (간단히) */}
-          <meta name="twitter:card" content="summary_large_image" />
-        </Helmet>
 
 
       <Header isChanged={isScroll} />
@@ -94,7 +64,7 @@ const Interior1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 인테리어
+        김해 테크노밸리 제일풍경채 2차 - 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
         인테리어 페이지에서는 김해 테크노밸리 제일풍경채의 고급 인테리어 디자인을
@@ -104,7 +74,7 @@ const Interior1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>테크노밸리 제일풍경채가 눈부신 가치 위에</div>
+        <div>김해 제일풍경채가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 

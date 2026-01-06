@@ -9,7 +9,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
+import page1 from "../../assets/ComplexGuide/ComplexGuide3/community.jpg";
 
 const ComplexGuide3 = () => {
   const menuContents = [
@@ -57,46 +57,61 @@ const ComplexGuide3 = () => {
         <html lang="ko" />
 
         {/* SEO 핵심 */}
-        <title>김해 테크노밸리 제일풍경채 – 커뮤니티</title>
+        <title>김해 테크노밸리 제일풍경채 2차 – 커뮤니티</title>
         <meta
           name="description"
-          content="김해 테크노밸리 제일풍경채 커뮤니티 시설: 피트니스, 독서실, 카페 등 편의시설을 소개합니다."
+          content="김해 테크노밸리 제일풍경채 2차 커뮤니티 시설을 소개합니다. 피트니스, 독서실, 카페 등 입주민의 편리한 일상을 위한 다양한 커뮤니티 공간을 확인하세요."
+        />
+        <meta
+          name="keywords"
+          content="김해 테크노밸리 제일풍경채 2차, 커뮤니티, 단지 커뮤니티, 피트니스, 독서실, 카페, 김해 아파트"
         />
         <link rel="canonical" href="https://www.diarivalencia.com/ComplexGuide/community" />
 
-        {/* Open Graph (필수만) */}
+        {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 커뮤니티" />
-        <meta property="og:description" content="커뮤니티 시설과 편의시설을 한눈에 확인하세요." />
+        <meta property="og:locale" content="ko_KR" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 – 커뮤니티" />
+        <meta
+          property="og:description"
+          content="김해 테크노밸리 제일풍경채 2차 커뮤니티 시설과 편의공간을 한눈에 확인하세요."
+        />
         <meta property="og:url" content="https://www.diarivalencia.com/ComplexGuide/community" />
         <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차 커뮤니티" />
 
-        {/* Twitter (간단히) */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 – 커뮤니티" />
+        <meta
+          name="twitter:description"
+          content="김해 테크노밸리 제일풍경채 2차 커뮤니티 시설을 확인하세요."
+        />
+        <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.diarivalencia.com/ComplexGuide/community" />
       </Helmet>
-
 
       <Header isChanged={isScroll} />
       <FixIcon />
+
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 커뮤니티
+        김해 테크노밸리 제일풍경채 2차 - 커뮤니티
       </h1>
       <p className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채의 커뮤니티 페이지에서는 단지 내 다양한
-        커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한
-        생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이
-        입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을
-        합니다.
+        김해 테크노밸리 제일풍경채 2차 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 안내합니다.
+        피트니스, 독서실, 카페 등 입주민의 일상 편의를 고려한 공간 구성으로
+        보다 쾌적하고 여유로운 주거 생활을 제공합니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>테크노밸리 제일풍경채가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>일상을 더 풍요롭게 만드는 커뮤니티 공간</div>
+        <div>김해 테크노밸리 제일풍경채 2차 커뮤니티</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img

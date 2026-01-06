@@ -7,15 +7,15 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 // import { Helmet } from "react-helmet-async";
-//import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
+import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
 import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "장기일반민간임대", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
-    // { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "파격적인특별혜택", url: "/SalesInfo/guide" },
+    { title: "부담없는계약조건", url: "/SalesInfo/stampTax" },
+    { title: "모집공고안내", url: "/SalesInfo/announcement" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -58,7 +58,7 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 인지세안내
+        김해 테크노밸리 제일풍경채- 부담없는계약조건
       </h1>
       <p className={styles.screenReaderOnly}>
         김해 테크노밸리 제일풍경채의 인지세 안내 페이지는 분양과 관련된 세금
@@ -69,19 +69,19 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>인터넷 청약하는 방법을 확인하세요</div>
+        <div>부담없는 계약조건을 확인하세요</div>
         <div>소수만 누리는 프리미엄 김해 테크노밸리 제일풍경채</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/*<img
+      <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="김해 테크노밸리 제일풍경채인지세안내-image1"
+        alt="김해 테크노밸리 제일풍경채 2차 부담없는계약조건 이미지1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-      />*/}
+      />
 
-      <Ready />
+  
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>

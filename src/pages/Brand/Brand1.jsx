@@ -50,42 +50,39 @@ const Brand1 = () => {
           <Helmet>
             {/* Basic */}
             <meta charSet="utf-8" />
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1, maximum-scale=1"
-            />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
             <meta name="theme-color" content="#ffffff" />
             <meta name="robots" content="index, follow" />
             <html lang="ko" />
 
             {/* Primary SEO */}
-            <title>김해 테크노밸리 제일풍경채 – 브랜드 소개</title>
+            <title>김해 테크노밸리 제일풍경채 2차 – 브랜드 소개</title>
             <meta
               name="description"
-              content="제일건설의 주거 브랜드 ‘제일풍경채’가 지향하는 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다. 김해 테크노밸리에서 펼쳐질 라이프스타일 비전과 브랜드 스토리를 확인해보세요."
+              content="김해 테크노밸리 제일풍경채 2차에서 만나는 제일건설의 주거 브랜드 ‘제일풍경채’. 브랜드 철학과 가치, 디자인 아이덴티티, 주거 기술 및 라이프스타일 비전을 소개합니다."
             />
             <meta
               name="keywords"
-              content="김해 테크노밸리 제일풍경채, 제일풍경채, 김해 제일풍경채, 제일건설, 브랜드 소개, 주거 브랜드, 김해테크노밸리"
+              content="김해 테크노밸리 제일풍경채 2차, 김해 제일풍경채 2차, 제일풍경채, 제일건설, 브랜드 소개, 주거 브랜드, 김해테크노밸리"
             />
             <link rel="canonical" href="https://www.diarivalencia.com/Brand/intro" />
 
             {/* Open Graph */}
             <meta property="og:type" content="website" />
             <meta property="og:locale" content="ko_KR" />
-            <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-            <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 브랜드 소개" />
+            <meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+            <meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 – 브랜드 소개" />
             <meta
               property="og:description"
-              content="제일건설의 주거 브랜드 ‘제일풍경채’가 지향하는 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다. 김해 테크노밸리의 비전과 브랜드 스토리를 확인하세요."
+              content="제일건설의 주거 브랜드 ‘제일풍경채’의 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다. 김해 테크노밸리 제일풍경채 2차에서 브랜드 스토리를 확인하세요."
             />
             <meta property="og:url" content="https://www.diarivalencia.com/Brand/intro" />
             <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
-            <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 브랜드 이미지" />
+            <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차 브랜드 이미지" />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 – 브랜드 소개" />
+            <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 – 브랜드 소개" />
             <meta
               name="twitter:description"
               content="제일건설의 주거 브랜드 ‘제일풍경채’의 철학·가치·기술을 소개합니다."
@@ -98,13 +95,13 @@ const Brand1 = () => {
               {`{
                 "@context": "https://schema.org",
                 "@type": "AboutPage",
-                "name": "김해 테크노밸리 제일풍경채 – 브랜드 소개",
+                "name": "김해 테크노밸리 제일풍경채 2차 – 브랜드 소개",
                 "url": "https://www.diarivalencia.com/Brand/intro",
                 "inLanguage": "ko-KR",
                 "description": "제일건설의 주거 브랜드 ‘제일풍경채’의 철학과 가치, 디자인 아이덴티티, 주거 기술을 소개합니다.",
                 "isPartOf": {
                   "@type": "WebSite",
-                  "name": "김해 테크노밸리 제일풍경채",
+                  "name": "김해 테크노밸리 제일풍경채 2차",
                   "url": "https://www.diarivalencia.com"
                 },
                 "breadcrumb": {
@@ -137,24 +134,24 @@ const Brand1 = () => {
             </script>
           </Helmet>
 
-            
+          <Header isChanged={isScroll} />
+          <FixIcon />
 
-            <Header isChanged={isScroll} />
-            <FixIcon />
+          <Bener title="풍경채" />
+          <MenuBar contents={menuContents} />
 
-            <Bener title="풍경채" />
+          <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 2차 - 브랜드소개</h1>
+          <p className={styles.screenReaderOnly}>
+            김해 테크노밸리 제일풍경채 2차는 제일건설의 주거 브랜드 ‘제일풍경채’가 추구하는 신뢰와 품질을 바탕으로
+            설계, 마감, 주거 기술까지 세심하게 담아낸 주거공간을 제안합니다.
+            이 페이지에서는 브랜드 철학과 디자인 아이덴티티, 주거 가치를 소개합니다.
+          </p>
 
-            <MenuBar contents={menuContents} />
-            {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 - 브랜드소개</h1>
-			<p className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채의 신뢰와 품질을 최우선으로 여기는 브랜드입니다. 최첨단 설계와 고급 자재를 사용하여 입주자에게 최고의 주거 환경을 제공합니다. 지속적인 혁신과 고객 만족을 위한 브랜드 철학을 바탕으로, 미래 지향적인 주택을 제시하는 
-        의 브랜드 가치를 경험해보세요
-			</p>	
+          <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
+            <div>삶의 기준을 높이는 주거 브랜드</div>
+            <div>제일풍경채, 김해 테크노밸리 2차에서 만나다</div>
+          </div>
 
-            <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-                <div>생활의 모든 것을 한걸음에</div>
-                <div>제일 풍경채, 레포츠파크의 중심에 서다</div>
-</div>
 
             <img className={`${styles.image} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김해 테크노밸리 제일풍경채 brand-Image1" />
 

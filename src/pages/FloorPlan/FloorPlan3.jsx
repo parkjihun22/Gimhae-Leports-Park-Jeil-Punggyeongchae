@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan3/unit01.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan3/unit03.jpg"
 
 
 const FloorPlan3 = () => {
@@ -66,9 +66,10 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>레포츠파크의 눈부신 가치 위에</div>
-				<div>풍경채 의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+        <div>84㎡ 단일면적, 타입별 구성 포인트</div>
+        <div>김해 테크노밸리 제일풍경채 2차 84C 평면안내</div>
+      </div>
+
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img

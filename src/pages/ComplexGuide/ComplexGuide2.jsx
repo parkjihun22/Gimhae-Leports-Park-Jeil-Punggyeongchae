@@ -59,43 +59,60 @@ const ComplexGuide1 = () => {
         <html lang="ko" />
 
         {/* SEO 핵심 */}
-        <title>김해 테크노밸리 제일풍경채 – 호수배치도</title>
+        <title>김해 테크노밸리 제일풍경채 2차 – 호수배치도</title>
         <meta
           name="description"
-          content="김해 테크노밸리 제일풍경채 호수 배치도로 세대 위치와 전망을 확인하세요."
+          content="김해 테크노밸리 제일풍경채 2차 호수배치도를 통해 세대별 위치와 배치 구조를 확인하세요."
+        />
+        <meta
+          name="keywords"
+          content="김해 테크노밸리 제일풍경채 2차, 호수배치도, 세대배치, 동호수 안내, 김해 아파트"
         />
         <link rel="canonical" href="https://www.diarivalencia.com/ComplexGuide/detailintro" />
 
-        {/* Open Graph (필수만) */}
+        {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-        <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 호수배치도" />
-        <meta property="og:description" content="세대 위치와 전망을 한눈에 확인하세요." />
+        <meta property="og:locale" content="ko_KR" />
+        <meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+        <meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 – 호수배치도" />
+        <meta
+          property="og:description"
+          content="김해 테크노밸리 제일풍경채 2차 호수배치도에서 세대 위치와 배치 구조를 한눈에 확인하세요."
+        />
         <meta property="og:url" content="https://www.diarivalencia.com/ComplexGuide/detailintro" />
         <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차 호수배치도" />
 
-        {/* Twitter (간단히) */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 – 호수배치도" />
+        <meta
+          name="twitter:description"
+          content="김해 테크노밸리 제일풍경채 2차 호수배치도를 통해 세대 위치를 확인하세요."
+        />
+        <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.diarivalencia.com/ComplexGuide/detailintro" />
       </Helmet>
-
 
       <Header isChanged={isScroll} />
       <FixIcon />
+
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
+
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 호수배치도
+        김해 테크노밸리 제일풍경채 2차 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
-        호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
-        원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게
-        돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다.
+        호수배치도 페이지는 김해 테크노밸리 제일풍경채 2차의 세대별 위치와 배치 구조를 안내합니다.
+        각 동과 호수의 배치를 통해 세대 선택 시 참고할 수 있는 정보를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>김해 테크노밸리 제일풍경채가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>세대 선택의 기준이 되는 배치 정보</div>
+        <div>김해 테크노밸리 제일풍경채 2차 호수배치도</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img

@@ -11,11 +11,11 @@ import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
 
 const BusinessGuide2 = () => {
-	const menuContents = [
-		{ title: "사업안내", url: "/BusinessGuide/intro" },
-		// { title: "분양일정", url: "/BusinessGuide/plan" },
-		// { title: "공급안내", url: "/BusinessGuide/documents" }
-	];
+    const menuContents = [
+      { title: "사업안내", url: "/BusinessGuide/intro" },
+      // { title: "분양일정", url: "/BusinessGuide/plan" },
+      { title: "공급안내", url: "/BusinessGuide/documents" }
+    ];
 	const [isScroll, setIsScroll] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(1); // 선택된 옵션 (1~6)
 	const [isImageVisible, setIsImageVisible] = useState(false); // isImageVisible 상태 추가
@@ -69,38 +69,60 @@ const BusinessGuide2 = () => {
 				<html lang="ko" />
 
 				{/* SEO 핵심 */}
-				<title>김해 테크노밸리 제일풍경채 – 당첨자 서류안내</title>
+				<title>김해 테크노밸리 제일풍경채 2차 – 공급안내</title>
 				<meta
 					name="description"
-					content="김해 테크노밸리 제일풍경채 당첨자 서류 준비 방법과 제출 절차를 확인하세요."
+					content="김해 테크노밸리 제일풍경채 2차 공급안내를 확인하세요. 공급개요, 신청자격, 제출서류(필요 시), 유의사항 등 청약에 필요한 핵심 정보를 안내합니다."
 				/>
-				<link rel="canonical" href="https://www.diarivalencia.com/BusinessGuide/documents" />
+				<meta
+					name="keywords"
+					content="김해 테크노밸리 제일풍경채 2차, 공급안내, 청약안내, 신청자격, 공급개요, 유의사항, 진례시례지구, B-5블록"
+				/>
 
-				{/* Open Graph (필수만) */}
+				{/* ✅ 여기 canonical은 실제 공급안내 라우트로 맞춰야 함 */}
+				<link rel="canonical" href="https://www.diarivalencia.com/SalesInfo/guide" />
+
+				{/* Open Graph */}
 				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-				<meta property="og:title" content="김해 테크노밸리 제일풍경채 – 당첨자 서류안내" />
-				<meta property="og:description" content="당첨자 서류 준비와 제출 절차를 한눈에 확인하세요." />
-				<meta property="og:url" content="https://www.diarivalencia.com/BusinessGuide/documents" />
+				<meta property="og:locale" content="ko_KR" />
+				<meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+				<meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 – 공급안내" />
+				<meta
+					property="og:description"
+					content="김해 테크노밸리 제일풍경채 2차 공급안내 – 공급개요, 신청자격, 유의사항 등 청약에 필요한 정보를 확인하세요."
+				/>
+				<meta property="og:url" content="https://www.diarivalencia.com/SalesInfo/guide" />
 				<meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+				<meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차" />
 
-				{/* Twitter (간단히) */}
+				{/* Twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 – 공급안내" />
+				<meta
+					name="twitter:description"
+					content="김해 테크노밸리 제일풍경채 2차 공급안내 – 청약에 필요한 핵심 정보를 확인하세요."
+				/>
+				<meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
 				</Helmet>
 
+				<Header isChanged={isScroll} />
+				<FixIcon />
 
-			<Header isChanged={isScroll} />
-			<FixIcon />
-			<Bener title="사업개요" />
-			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채  - 계약서류안내</h1>
-			<p className={styles.screenReaderOnly}>계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.</p>
+				{/* ✅ 페이지 성격에 맞게 배너 타이틀도 변경 */}
+				<Bener title="공급안내" />
+				<MenuBar contents={menuContents} />
 
-			<div className={styles.textBox}>
-				<div>김해 레포츠파크의 눈부신 가치 위에</div>
-				<div>김해 테크노밸리 제일풍경채의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+				<h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 2차 - 공급안내</h1>
+				<p className={styles.screenReaderOnly}>
+				김해 테크노밸리 제일풍경채 2차의 공급안내 페이지입니다.
+				공급개요, 신청자격, 유의사항 등 청약 진행에 필요한 정보를 안내합니다.
+				</p>
+
+				<div className={styles.textBox}>
+				<div>청약 전에 꼭 확인해야 할 핵심 정보</div>
+				<div>김해 테크노밸리 제일풍경채 2차 공급안내</div>
+				</div>
+
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
 			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김해 테크노밸리 제일풍경채 계약서류안내-image1" />

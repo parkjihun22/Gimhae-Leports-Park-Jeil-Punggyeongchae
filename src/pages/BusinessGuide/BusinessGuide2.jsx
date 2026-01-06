@@ -15,7 +15,7 @@ const BusinessGuide2 = () => {
     const menuContents = [
       { title: "사업안내", url: "/BusinessGuide/intro" },
       // { title: "분양일정", url: "/BusinessGuide/plan" },
-      // { title: "공급안내", url: "/BusinessGuide/documents" }
+      { title: "공급안내", url: "/BusinessGuide/documents" }
     ];
 
     const [isScroll, setIsScroll] = useState(false);
@@ -50,50 +50,66 @@ const BusinessGuide2 = () => {
 
     return (
         <div className={styles.container}>
-            <Helmet>
-              {/* 기본 설정 */}
-              <meta charSet="utf-8" />
-              <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-              <meta name="theme-color" content="#ffffff" />
-              <meta name="robots" content="index, follow" />
-              <html lang="ko" />
+                <Helmet>
+                {/* 기본 설정 */}
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+                <meta name="theme-color" content="#ffffff" />
+                <meta name="robots" content="index, follow" />
+                <html lang="ko" />
 
-              {/* SEO 핵심 */}
-              <title>김해 테크노밸리 제일풍경채 – 분양일정</title>
-              <meta
-                name="description"
-                content="김해 테크노밸리 제일풍경채의 최신 분양일정을 한눈에 확인하세요."
-              />
-              <link rel="canonical" href="https://www.diarivalencia.com/BusinessGuide/plan" />
+                {/* SEO 핵심 */}
+                <title>김해 테크노밸리 제일풍경채 2차 – 분양일정</title>
+                <meta
+                    name="description"
+                    content="김해 테크노밸리 제일풍경채 2차 분양일정을 확인하세요. 모델하우스 오픈 및 청약 진행 등 주요 일정을 한눈에 안내합니다."
+                />
+                <meta
+                    name="keywords"
+                    content="김해 테크노밸리 제일풍경채 2차, 분양일정, 청약일정, 모델하우스, 진례시례지구, B-5블록"
+                />
+                <link rel="canonical" href="https://www.diarivalencia.com/BusinessGuide/plan" />
 
-              {/* Open Graph (필수만) */}
-              <meta property="og:type" content="website" />
-              <meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-              <meta property="og:title" content="김해 테크노밸리 제일풍경채 – 분양일정" />
-              <meta property="og:description" content="최신 분양일정을 한눈에 확인하세요." />
-              <meta property="og:url" content="https://www.diarivalencia.com/BusinessGuide/plan" />
-              <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+                {/* Open Graph */}
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="ko_KR" />
+                <meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+                <meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 – 분양일정" />
+                <meta
+                    property="og:description"
+                    content="김해 테크노밸리 제일풍경채 2차 분양일정 – 모델하우스 오픈 및 청약 진행 등 주요 일정을 한눈에 확인하세요."
+                />
+                <meta property="og:url" content="https://www.diarivalencia.com/BusinessGuide/plan" />
+                <meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+                <meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차" />
 
-              {/* Twitter (간단히) */}
-              <meta name="twitter:card" content="summary_large_image" />
-            </Helmet>
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 – 분양일정" />
+                <meta
+                    name="twitter:description"
+                    content="김해 테크노밸리 제일풍경채 2차 분양일정 – 주요 일정(모델하우스/청약)을 확인하세요."
+                />
+                <meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+                </Helmet>
 
+                <Header isChanged={isScroll} />
+                <FixIcon />
 
-            <Header isChanged={isScroll} />
-            <FixIcon />
+                {/* ✅ 분양일정 페이지니까 타이틀도 분양일정으로 */}
+                <Bener title="분양일정" />
+                <MenuBar contents={menuContents} />
 
-            <Bener title="사업개요" />
-            <MenuBar contents={menuContents} />
+                <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 2차 - 분양일정</h1>
+                <p className={styles.screenReaderOnly}>
+                김해 테크노밸리 제일풍경채 2차의 분양일정을 안내합니다.
+                모델하우스 오픈 및 청약 진행 등 주요 일정을 확인하실 수 있습니다.
+                </p>
 
-            <h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 - 분양일정</h1>
-            <p className={styles.screenReaderOnly}>
-			김해 테크노밸리 제일풍경채의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다.
-            </p>
-
-            <div className={styles.textBox}>
-                <div>김해 레포츠파크의 눈부신 가치 위에</div>
-                <div>김해 테크노밸리 제일풍경채의 새로운 자부심으로 찾아옵니다.</div>
-            </div>
+                <div className={styles.textBox}>
+                <div>김해 테크노밸리의 기대감 위에</div>
+                <div>김해 테크노밸리 제일풍경채 2차, 분양일정을 확인하세요.</div>
+                </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
             <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김해 테크노밸리 제일풍경채분양일정안내-image1" />

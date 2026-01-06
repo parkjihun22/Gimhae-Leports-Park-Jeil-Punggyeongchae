@@ -18,9 +18,9 @@ import Ready from "../../components/Ready/Ready"
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "장기일반민간임대", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
-    // { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "파격적인특별혜택", url: "/SalesInfo/guide" },
+    { title: "부담없는계약조건", url: "/SalesInfo/stampTax" },
+    { title: "모집공고안내", url: "/SalesInfo/announcement" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -76,7 +76,7 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 모집공고안내
+        김해 테크노밸리 제일풍경채 2차 - 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
         김해 테크노밸리 제일풍경채모집 공고는 분양 전 단계에서 중요한
@@ -89,19 +89,18 @@ const ComplexGuide1 = () => {
         <div>입주자 모집공고안내를 확인하세요</div>
         <div>김해 테크노밸리 제일풍경채</div>
       </div>
-      {/* <img
+      <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="김해 테크노밸리 제일풍경채모집공고안내-image1"
+        alt="김해 테크노밸리 제일풍경채2차 모집공고안내 이미지1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-         /> */}
+         />
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
-       {/* <button onClick={openPDF} className={styles.pdfButton}>
+       <button onClick={openPDF} className={styles.pdfButton}>
                 <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} /> 
                 <span>모집공고 PDF<br/>확인하기</span>
-            </button> */}
+            </button>
 
-            <Ready/>
 
       {/* 로딩 중일 때 표시할 스피너 */}
       {isLoading && (

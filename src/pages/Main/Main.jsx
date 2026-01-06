@@ -204,21 +204,26 @@ const Main = () => {
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
-              <div className={styles.mainImageTextSub}>
-                HUG주택도시보증공사{" "}
-                <span className={styles.greyText}>임대보증금 100% 보증</span> |
-                1군 브랜드{" "}
-                <span className={styles.greyText}>브랜드 프리미엄</span> |
-                10년 살아보고결정하는{" "}
-                <span className={styles.greyText}>착한조건</span>
+            <div className={styles.mainImageTextSub}>
+              HUG 주택도시보증공사
+              <span className={styles.greyText}> 임대보증금 보증 적용</span> |
+              제일건설
+              <span className={styles.greyText}> 제일풍경채 브랜드 가치</span> |
+              10년 거주 후 선택하는
+              <span className={styles.greyText}> 안정적인 주거 방식</span>
+            </div>
+
+            <div className={styles.mainImageTitleBox}>
+              <div className={styles.mainImageText}>
+                테크노밸리 생활권의 중심에서
               </div>
-              <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>
-                  레포츠파크의 중심이 될
-                </div>
-                <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>김해 테크노밸리 제일풍경채 2차</div>
+              <div className={styles.mainImageLine}></div>
+              <div className={styles.mainImageText}>
+                김해 테크노밸리 제일풍경채 2차
               </div>
+            </div>
+
+
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
                 <button
@@ -244,11 +249,13 @@ const Main = () => {
                   테크노밸리 제일풍경채 중요 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
-                  - 10년동안 안전하게 이사걱정을 하지 않고 10년후에는 내집으로 마련을 할수 있는 기회<br />
-                  - 김해 도심 및 부산·창원 등 인접 도시로 연결되는 주요 도로망 인접<br />-
-                  - 모두를 누리는 김해 테크노밸리 제일풍경채
-                </div>
+              - 김해·부산·창원 생활권을 잇는 입지 프리미엄<br />
+              - 10년 장기거주로 더 안정적인 라이프스타일<br />
+              - 거주 후 선택 가능한 분양전환 구조<br />
+              - 주요 간선도로 접근으로 넓어지는 이동 동선<br />
+              - 테크노밸리 생활권에서 완성되는 제일풍경채 2차
+            </div>
+
                 <div className={styles.text4}>
                   <a
                     href="#"
@@ -518,26 +525,28 @@ const Main = () => {
 
             {/* 기존 텍스트 */}
             <div className={styles.mainImageTextBox1}>
-              <div className={styles.mainImageTextSub1}>
-                1차 청약으로 단 하루만에 
-                <br />
-                <span className={styles.greyText1}>100% 완판</span>
-                <br />
-                신뢰할 수 있는 브랜드
-                <br />
-                <span className={styles.greyText1}>브랜드 프리미엄</span>
-                <br />
-                10년 살아보고 결정하는
-                <br />
-                <span className={styles.greyText1}>착한조건</span>
-              </div>
-              <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>
-                  김해 테크노밸리 제일풍경채 2차
-                </div>
+            <div className={styles.mainImageTextSub1}>
+              1차 분양에서 확인된
+              <br />
+              <span className={styles.greyText1}>높은 관심과 선택</span>
+              <br />
+              신뢰를 쌓아온 주거 브랜드
+              <br />
+              <span className={styles.greyText1}>제일풍경채 브랜드 가치</span>
+              <br />
+              10년 거주 후 선택하는
+              <br />
+              <span className={styles.greyText1}>합리적인 주거 방식</span>
+            </div>
+
+            <div className={styles.mainImageTitleBox1}>
+              <div className={styles.mainImageText1}>
+                김해 테크노밸리 제일풍경채 2차
               </div>
             </div>
           </div>
+          </div>
+
 
 
 
@@ -545,15 +554,17 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              김해 테크노밸리 제일풍경채 POINT
+              김해 테크노밸리 제일풍경채 2차 POINT
             </div>
+
             <div className={styles.text3}>
-                  - 김해 부산간의 광역 교통망 확충과 함께 레포츠파크 사업지 조성 <br />
-                  - 10년동안 안전하게 이사걱정을 하지 않고<br />
-                  - 10년후에는 내집으로 마련을 할수 있는 기회<br />
-                  - 김해 도심 및 부산·창원 등 인접 도시로 연결되는 주요 도로망 인접<br />
-                  - 모두를 누리는 김해 테크노밸리 제일풍경채
+              - 김해·부산·창원 생활권을 잇는 입지 프리미엄<br />
+              - 10년 장기거주로 더 안정적인 라이프스타일<br />
+              - 거주 후 선택 가능한 분양전환 구조<br />
+              - 주요 간선도로 접근으로 넓어지는 이동 동선<br />
+              - 테크노밸리 생활권에서 완성되는 제일풍경채 2차
             </div>
+
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
               <a

@@ -15,9 +15,9 @@ import page1 from "../../assets/SalesInfo/SubscriptionGuide/page1.jpg";
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "장기일반민간임대", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
-    // { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "파격적인특별혜택", url: "/SalesInfo/guide" },
+    { title: "부담없는계약조건", url: "/SalesInfo/stampTax" },
+    { title: "모집공고안내", url: "/SalesInfo/announcement" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -60,7 +60,7 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        김해 테크노밸리 제일풍경채- 장기일반민간임대
+        김해 테크노밸리 제일풍경채 2차 - 장기일반민간임대
       </h1>
       <p className={styles.screenReaderOnly}>
         김해 테크노밸리 제일풍경채분양 전 필수 장기일반민간임대를 확인하세요. 청약

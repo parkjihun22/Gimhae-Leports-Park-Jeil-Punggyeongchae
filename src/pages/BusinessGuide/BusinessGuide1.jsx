@@ -13,21 +13,22 @@ import { Helmet } from "react-helmet-async";
 
 
 const projectData = [
-	{ label: '사업명', value: '김해 테크노밸리 제일풍경채' },
-	{ label: '사업위치', value: '김해 진례 시례지구 B-3블럭 공동주택 신축공사' },
-	{ label: '대지면적', value: '106,050.4985㎡' },
-	{ label: '건축면적', value: '13,404.3638㎡' },
-	{ label: '연면적', value: '376,069.7623㎡' },
-	{ label: '용적률', value: '229.55%' },
-	{ label: '건축규모', value: '지하3층 ~ 지상 15층, 9개동/ 부대복리시설,근린생활시설' },
-	{ label: '세대수', value: '440세대 / 84㎡A·B·C' },
-];
+	{ label: '사업명', value: '김해 테크노밸리 제일풍경채 Ⅱ' },
+	{ label: '사업위치', value: '경상남도 김해시 진례면 시례리 156번지 일원 (진례시례지구 B-5블록)' },
+	{ label: '대지면적', value: '약 52,000㎡ 내외' },
+	{ label: '건축면적', value: '약 10,000㎡ 내외' },
+	{ label: '연면적', value: '약 160,000㎡ 내외' },
+	{ label: '용적률', value: '약 229% 내외' },
+	{ label: '건축규모', value: '지하 4층 ~ 지상 15층, 16개동 / 부대복리시설' },
+	{ label: '세대수', value: '총 782세대 / 전용 84㎡ A·B·C' },
+  ];
+  
 
 const BusinessGuide1 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
 		// { title: "분양일정", url: "/BusinessGuide/plan" },
-		// { title: "공급안내", url: "/BusinessGuide/documents" }
+		{ title: "공급안내", url: "/BusinessGuide/documents" }
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const { pathname } = useLocation(); // 현재 경로를 가져옴
@@ -56,81 +57,85 @@ const BusinessGuide1 = () => {
 	return (
 		<div className={styles.container}>
 
-			<Helmet>
-			{/* 기본 문자셋 및 모바일 최적화 */}
-			<meta charSet="utf-8" />
-			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-			<meta name="theme-color" content="#ffffff" />
-			<meta name="robots" content="index, follow" />
-			<html lang="ko" />
+				<Helmet>
+				{/* 기본 문자셋 및 모바일 최적화 */}
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+				<meta name="theme-color" content="#ffffff" />
+				<meta name="robots" content="index, follow" />
+				<html lang="ko" />
 
-			{/* SEO 메타 */}
-			<title>김해 테크노밸리 제일풍경채 - 사업안내</title>
-			<meta
-				name="description"
-				content="김해 테크노밸리 제일풍경채의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화를 설명하며 김해에서 새로운 주거 중심지로서의 가능성을 보여드립니다."
-			/>
-			<meta
-				name="keywords"
-				content="김해테크노밸리제일풍경채, 제일풍경채, 김해 제일풍경채, 김해 아파트, 사업개요"
-			/>
-			<link rel="canonical" href="https://www.diarivalencia.com/BusinessGuide/intro" />
+				{/* SEO 메타 */}
+				<title>김해 테크노밸리 제일풍경채 2차 - 사업안내</title>
+				<meta
+					name="description"
+					content="김해 테크노밸리 제일풍경채 2차 사업개요를 확인하세요. 진례시례지구(B-5블록) 내 84㎡ 단일면적 A·B·C 타입, 총 782세대 규모로 조성되는 프리미엄 주거단지의 핵심 정보를 안내합니다."
+				/>
+				<meta
+					name="keywords"
+					content="김해 테크노밸리 제일풍경채 2차, 김해 제일풍경채 2차, 김해 테크노밸리 아파트, 진례시례지구, B-5블록, 84A, 84B, 84C, 782세대, 김해 아파트, 사업개요"
+				/>
+				<link rel="canonical" href="https://www.diarivalencia.com/BusinessGuide/intro" />
 
-			{/* Open Graph */}
-			<meta property="og:type" content="website" />
-			<meta property="og:locale" content="ko_KR" />
-			<meta property="og:site_name" content="김해 테크노밸리 제일풍경채" />
-			<meta property="og:title" content="김해 테크노밸리 제일풍경채 - 사업안내" />
-			<meta
-				property="og:description"
-				content="김해 테크노밸리 제일풍경채 사업개요 – 단지 설계, 개발 목표, 주변 환경과의 조화 등 김해의 새로운 주거 중심지로서의 비전을 확인하세요."
-			/>
-			<meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
-			<meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 조감도" />
-			<meta property="og:url" content="https://www.diarivalencia.com/BusinessGuide/intro" />
+				{/* Open Graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:locale" content="ko_KR" />
+				<meta property="og:site_name" content="김해 테크노밸리 제일풍경채 2차" />
+				<meta property="og:title" content="김해 테크노밸리 제일풍경채 2차 - 사업안내" />
+				<meta
+					property="og:description"
+					content="김해 테크노밸리 제일풍경채 2차 사업개요 – 진례시례지구(B-5블록) 84㎡ 단일면적 A·B·C 타입, 총 782세대 규모의 단지 계획을 확인하세요."
+				/>
+				<meta property="og:image" content="https://www.diarivalencia.com/Main1.png" />
+				<meta property="og:image:alt" content="김해 테크노밸리 제일풍경채 2차 조감도" />
+				<meta property="og:url" content="https://www.diarivalencia.com/BusinessGuide/intro" />
 
-			{/* Twitter */}
-			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="김해 테크노밸리 제일풍경채 - 사업안내" />
-			<meta
-				name="twitter:description"
-				content="김해 테크노밸리 제일풍경채 사업개요 – 단지 설계와 개발 목표, 주변 환경 조화를 통한 김해의 주거 중심지 비전을 소개합니다."
-			/>
-			<meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
-			<meta name="twitter:url" content="https://www.diarivalencia.com/BusinessGuide/intro" />
+				{/* Twitter */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="김해 테크노밸리 제일풍경채 2차 - 사업안내" />
+				<meta
+					name="twitter:description"
+					content="김해 테크노밸리 제일풍경채 2차 사업개요 – 진례시례지구(B-5블록) 84㎡ 단일면적, 총 782세대 규모의 단지 계획을 소개합니다."
+				/>
+				<meta name="twitter:image" content="https://www.diarivalencia.com/Main1.png" />
+				<meta name="twitter:url" content="https://www.diarivalencia.com/BusinessGuide/intro" />
 
-			{/* JSON-LD 구조화 데이터 */}
-			<script type="application/ld+json">
-				{`
-				{
-				"@context": "https://schema.org",
-				"@type": "WebPage",
-				"name": "김해 테크노밸리 제일풍경채 - 사업안내",
-				"description": "김해 테크노밸리 제일풍경채 사업개요 – 단지 설계, 개발 목표, 주변 환경과의 조화를 통해 김해의 새로운 주거 중심지 비전을 소개합니다.",
-				"url": "https://www.diarivalencia.com/BusinessGuide/intro",
-				"inLanguage": "ko-KR"
-				}
-				`}
-			</script>
-			</Helmet>
+				{/* JSON-LD 구조화 데이터 */}
+				<script type="application/ld+json">
+					{`
+					{
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "김해 테크노밸리 제일풍경채 2차 - 사업안내",
+						"description": "김해 테크노밸리 제일풍경채 2차 사업개요를 안내합니다. 진례시례지구(B-5블록) 내 84㎡ 단일면적 A·B·C 타입, 총 782세대 규모의 단지 계획과 핵심 정보를 소개합니다.",
+						"url": "https://www.diarivalencia.com/BusinessGuide/intro",
+						"inLanguage": "ko-KR"
+					}
+					`}
+				</script>
+				</Helmet>
 
+				<Header isChanged={isScroll} />
+				<FixIcon />
 
-			<Header isChanged={isScroll} />
-			<FixIcon />
+				<Bener title="사업개요" />
 
-			<Bener title="사업개요" />
+				<MenuBar contents={menuContents} />
 
-			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-			<h1 className={styles.screenReaderOnly}>김해 테크노밸리 제일풍경채 - 사업안내</h1>
-			<p className={styles.screenReaderOnly}>
-				김해 테크노밸리 제일풍경채는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
-			</p>
+				<h1 className={styles.screenReaderOnly}>
+				김해 테크노밸리 제일풍경채 2차 - 사업안내
+				</h1>
+				<p className={styles.screenReaderOnly}>
+				김해 테크노밸리 제일풍경채 2차는 김해 진례시례지구(B-5블록)에 조성되는 주거단지로,
+				전용 84㎡ 단일면적(A·B·C) 총 782세대 규모로 계획되었습니다.
+				이 페이지에서는 단지의 사업개요와 핵심 정보를 한눈에 확인하실 수 있습니다.
+				</p>
 
-			<div className={styles.textBox}>
-				<div>특별한 라이프 컬렉션</div>
-				<div>제일풍경채의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+				<div className={styles.textBox}>
+				<div>84㎡ 단일면적 · 782세대 대단지</div>
+				<div>김해 테크노밸리 제일풍경채 2차, 새로운 주거 기준</div>
+				</div>
+
 
 			<img className={styles.img3} src={page1} alt="김해 테크노밸리 제일풍경채 사업안내 이미지"/>
 
