@@ -24,35 +24,37 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>김해 테크노밸리 제일풍경채</span>
+          <span>김해 테크노밸리 제일풍경채 2차</span>
         </li>
         <li>
           <strong>대지위치</strong>
           <span>
-          김해 진례 시례지구 B-3블럭 공동주택 신축공사
+            경상남도 김해시 진례면 시례리 일원<br />
+            (진례시례지구 B-5블록)
           </span>
         </li>
         <li>
           <strong>건축규모</strong>
           <span>
-            지하 3층 ~ 지상 15층<br />
+            지하 4층 ~ 지상 15층
           </span>
         </li>
         <li>
           <strong>주택형</strong>
           <span>
-            84A·B·C
+            전용 84㎡ (A·B·C)
           </span>
         </li>
         <li>
           <strong>세대수</strong>
           <span>
-            440세대
+            총 782세대
           </span>
         </li>
       </ul>
     ),
   },
+  
   {
     key: "location",
     label: "입지환경",
