@@ -190,6 +190,23 @@ const LocationEnvironment1 = () => {
         ))}
       </div>
 
+      <img
+        src={page1}
+        className={styles.image2}
+        alt="김해 테크노밸리 제일풍경채 2차 입지환경 이미지"
+      />
+
+
+      <div className={styles.section2}>
+        {LocationSection.map((value, idx) => (
+          <LocationSectionBox
+            image={value.img}
+            title={value.titleText}
+            text={value.contentText}
+          />
+        ))}
+      </div>
+
       <div className={styles.commonBox}>
         <div className={styles.notice}>
           ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 김해 테크노밸리 제일풍경채 사업주체 및 시공사와 무관합니다.
